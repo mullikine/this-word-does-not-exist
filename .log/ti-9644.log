@@ -1,0 +1,161 @@
+[14:5:29.394] Global cache location '/home/shane/.cache/typescript/3.2', safe file path '/usr/local/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/local/lib/node_modules/typescript/lib/typesMap.json
+[14:5:29.395] Processing cache location '/home/shane/.cache/typescript/3.2'
+[14:5:29.395] Trying to find '/home/shane/.cache/typescript/3.2/package.json'...
+[14:5:29.398] Loaded content of '/home/shane/.cache/typescript/3.2/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.532"},"devDependencies":{"@types/angular":"^1.8.0","@types/angular-route":"^1.7.1","@types/async":"^3.2.4","@types/atob":"^2.1.2","@types/aws4":"^1.5.1","@types/bittorrent-protocol":"^3.1.1","@types/bootstrap":"^5.0.0","@types/caseless":"^0.12.2","@types/chai":"^4.2.14","@types/clipboard":"^2.0.1","@types/clone":"^2.1.0","@types/concurrently":"^5.2.1","@types/copy-webpack-plugin":"^6.3.0","@types/copyfiles":"^2.2.0","@types/core-js":"^2.5.4","@types/cssbeautify":"^0.3.1","@types/d":"^1.0.0","@types/d3-array":"^2.8.0","@types/d3-axis":"^2.0.0","@types/d3-collection":"^1.0.10","@types/d3-color":"^2.0.1","@types/d3-format":"^2.0.0","@types/d3-interpolate":"^2.0.0","@types/d3-scale":"^3.2.1","@types/d3-selection":"^2.0.0","@types/d3-time":"^2.0.0","@types/d3-time-format":"^3.0.0","@types/debug":"^4.1.5","@types/diff":"^4.0.2","@types/duplicate-package-checker-webpack-plugin":"^2.1.0","@types/elliptic":"^6.4.12","@types/escape-html":"^1.0.0","@types/eslint":"^7.2.5","@types/eslint-config-prettier":"^6.11.0","@types/eslint-plugin-prettier":"^3.1.0","@types/event-emitter":"^0.3.3","@types/express":"^4.17.9","@types/extend":"^3.0.1","@types/ffi-napi":"^2.4.3","@types/file-loader":"^4.2.0","@types/file-saver":"^2.0.1","@types/forever-agent":"^0.6.0","@types/generate-changelog":"^1.8.0","@types/git-rev-sync":"^2.0.0","@types/glob":"^7.1.3","@types/grunt":"^0.4.25","@types/hashring":"^3.2.1","@types/hat":"0.0.1","@types/he":"^1.1.1","@types/heap":"^0.2.28","@types/imagemin":"^7.0.0","@types/inherits":"0.0.30","@types/is-glob":"^4.0.1","@types/is-typedarray":"^1.0.0","@types/isstream":"^0.1.0","@types/jquery":"^3.5.0","@types/js-yaml":"^3.12.5","@types/json-stringify-safe":"^5.0.0","@types/karma":"^5.0.1","@types/karma-chrome-launcher":"^3.1.0","@types/karma-coverage":"^1.1.2","@types/karma-coverage-istanbul-reporter":"^2.1.0","@types/karma-firefox-launcher":"^1.3.0","@types/karma-jasmine":"^3.1.0","@types/karma-webpack":"^2.0.7","@types/lodash":"^4.14.165","@types/lodash.uniqueid":"^4.0.6","@types/magnet-uri":"^5.1.2","@types/marked":"^1.2.0","@types/messenger":"^1.4.28","@types/mime-types":"^2.1.0","@types/mini-css-extract-plugin":"^1.2.1","@types/minimist":"^1.2.1","@types/mkdirp":"^1.0.1","@types/mocha":"^8.0.4","@types/moment-duration-format":"^2.2.2","@types/node":"^14.0.13","@types/node-fetch":"^2.5.7","@types/node-sass":"^4.11.1","@types/object-assign":"^4.0.30","@types/once":"^1.4.0","@types/phantomjs":"^1.9.30","@types/postcss-flexbugs-fixes":"^4.2.0","@types/postcss-import":"^12.0.0","@types/prettier":"^2.1.5","@types/prettyjson":"0.0.29","@types/prismjs":"^1.16.1","@types/promise-memoize":"^1.2.0","@types/puppeteer":"^5.4.0","@types/qs":"^6.9.5","@types/randomstring":"^1.1.6","@types/rc":"^1.1.0","@types/react":"^16.9.53","@types/react-dom":"^16.9.8","@types/react-native":"^0.63.30","@types/request":"^2.48.5","@types/rimraf":"^3.0.0","@types/sass":"^1.16.0","@types/sass-loader":"^8.0.0","@types/secp256k1":"^4.0.1","@types/showdown":"^1.9.3","@types/sinon":"^9.0.8","@types/sinon-chai":"^3.2.5","@types/source-map-support":"^0.5.3","@types/split":"^1.0.0","@types/sprintf":"^0.1.0","@types/string-similarity":"^3.0.0","@types/through":"0.0.30","@types/tough-cookie":"^4.0.0","@types/ua-parser-js":"^0.7.33","@types/underscore.string":"0.0.38","@types/uuid":"^8.3.0","@types/vue-select":"^2.5.0","@types/webpack":"^4.41.25","@types/webpack-bundle-analyzer":"^3.8.0","@types/webpack-dev-middleware":"^3.7.2","@types/webpack-dev-server":"^3.11.0","@types/webpack-hot-middleware":"^2.25.3","@types/webtorrent":"^0.109.0","@types/ws":"^7.4.0","@types/xo":"^0.28.0","@types/zepto":"^1.0.31"}}
+[14:5:29.398] Loaded content of '/home/shane/.cache/typescript/3.2/package-lock.json'
+[14:5:29.410] Adding entry into typings cache: 'angular' => '/home/shane/.cache/typescript/3.2/node_modules/@types/angular/index.d.ts'
+[14:5:29.413] Adding entry into typings cache: 'angular-route' => '/home/shane/.cache/typescript/3.2/node_modules/@types/angular-route/index.d.ts'
+[14:5:29.421] Adding entry into typings cache: 'async' => '/home/shane/.cache/typescript/3.2/node_modules/@types/async/index.d.ts'
+[14:5:29.423] Adding entry into typings cache: 'atob' => '/home/shane/.cache/typescript/3.2/node_modules/@types/atob/index.d.ts'
+[14:5:29.426] Adding entry into typings cache: 'aws4' => '/home/shane/.cache/typescript/3.2/node_modules/@types/aws4/index.d.ts'
+[14:5:29.429] Adding entry into typings cache: 'bittorrent-protocol' => '/home/shane/.cache/typescript/3.2/node_modules/@types/bittorrent-protocol/index.d.ts'
+[14:5:29.434] Adding entry into typings cache: 'bootstrap' => '/home/shane/.cache/typescript/3.2/node_modules/@types/bootstrap/index.d.ts'
+[14:5:29.436] Adding entry into typings cache: 'caseless' => '/home/shane/.cache/typescript/3.2/node_modules/@types/caseless/index.d.ts'
+[14:5:29.439] Adding entry into typings cache: 'chai' => '/home/shane/.cache/typescript/3.2/node_modules/@types/chai/index.d.ts'
+[14:5:29.441] Adding entry into typings cache: 'clipboard' => '/home/shane/.cache/typescript/3.2/node_modules/@types/clipboard/index.d.ts'
+[14:5:29.444] Adding entry into typings cache: 'clone' => '/home/shane/.cache/typescript/3.2/node_modules/@types/clone/index.d.ts'
+[14:5:29.446] Adding entry into typings cache: 'concurrently' => '/home/shane/.cache/typescript/3.2/node_modules/@types/concurrently/index.d.ts'
+[14:5:29.448] Adding entry into typings cache: 'copy-webpack-plugin' => '/home/shane/.cache/typescript/3.2/node_modules/@types/copy-webpack-plugin/index.d.ts'
+[14:5:29.451] Adding entry into typings cache: 'copyfiles' => '/home/shane/.cache/typescript/3.2/node_modules/@types/copyfiles/index.d.ts'
+[14:5:29.453] Adding entry into typings cache: 'core-js' => '/home/shane/.cache/typescript/3.2/node_modules/@types/core-js/index.d.ts'
+[14:5:29.456] Adding entry into typings cache: 'cssbeautify' => '/home/shane/.cache/typescript/3.2/node_modules/@types/cssbeautify/index.d.ts'
+[14:5:29.458] Adding entry into typings cache: 'd' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d/index.d.ts'
+[14:5:29.461] Adding entry into typings cache: 'd3-array' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-array/index.d.ts'
+[14:5:29.463] Adding entry into typings cache: 'd3-axis' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-axis/index.d.ts'
+[14:5:29.465] Adding entry into typings cache: 'd3-collection' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-collection/index.d.ts'
+[14:5:29.467] Adding entry into typings cache: 'd3-color' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-color/index.d.ts'
+[14:5:29.469] Adding entry into typings cache: 'd3-format' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-format/index.d.ts'
+[14:5:29.471] Adding entry into typings cache: 'd3-interpolate' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-interpolate/index.d.ts'
+[14:5:29.472] Adding entry into typings cache: 'd3-scale' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-scale/index.d.ts'
+[14:5:29.474] Adding entry into typings cache: 'd3-selection' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-selection/index.d.ts'
+[14:5:29.476] Adding entry into typings cache: 'd3-time' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-time/index.d.ts'
+[14:5:29.478] Adding entry into typings cache: 'd3-time-format' => '/home/shane/.cache/typescript/3.2/node_modules/@types/d3-time-format/index.d.ts'
+[14:5:29.481] Adding entry into typings cache: 'debug' => '/home/shane/.cache/typescript/3.2/node_modules/@types/debug/index.d.ts'
+[14:5:29.482] Adding entry into typings cache: 'diff' => '/home/shane/.cache/typescript/3.2/node_modules/@types/diff/index.d.ts'
+[14:5:29.483] Adding entry into typings cache: 'duplicate-package-checker-webpack-plugin' => '/home/shane/.cache/typescript/3.2/node_modules/@types/duplicate-package-checker-webpack-plugin/index.d.ts'
+[14:5:29.485] Adding entry into typings cache: 'elliptic' => '/home/shane/.cache/typescript/3.2/node_modules/@types/elliptic/index.d.ts'
+[14:5:29.487] Adding entry into typings cache: 'escape-html' => '/home/shane/.cache/typescript/3.2/node_modules/@types/escape-html/index.d.ts'
+[14:5:29.489] Adding entry into typings cache: 'eslint' => '/home/shane/.cache/typescript/3.2/node_modules/@types/eslint/index.d.ts'
+[14:5:29.491] Adding entry into typings cache: 'eslint-config-prettier' => '/home/shane/.cache/typescript/3.2/node_modules/@types/eslint-config-prettier/index.d.ts'
+[14:5:29.492] Adding entry into typings cache: 'eslint-plugin-prettier' => '/home/shane/.cache/typescript/3.2/node_modules/@types/eslint-plugin-prettier/index.d.ts'
+[14:5:29.496] Adding entry into typings cache: 'event-emitter' => '/home/shane/.cache/typescript/3.2/node_modules/@types/event-emitter/index.d.ts'
+[14:5:29.497] Adding entry into typings cache: 'express' => '/home/shane/.cache/typescript/3.2/node_modules/@types/express/index.d.ts'
+[14:5:29.500] Adding entry into typings cache: 'extend' => '/home/shane/.cache/typescript/3.2/node_modules/@types/extend/index.d.ts'
+[14:5:29.501] Adding entry into typings cache: 'ffi-napi' => '/home/shane/.cache/typescript/3.2/node_modules/@types/ffi-napi/index.d.ts'
+[14:5:29.503] Adding entry into typings cache: 'file-loader' => '/home/shane/.cache/typescript/3.2/node_modules/@types/file-loader/index.d.ts'
+[14:5:29.506] Adding entry into typings cache: 'file-saver' => '/home/shane/.cache/typescript/3.2/node_modules/@types/file-saver/index.d.ts'
+[14:5:29.507] Adding entry into typings cache: 'forever-agent' => '/home/shane/.cache/typescript/3.2/node_modules/@types/forever-agent/index.d.ts'
+[14:5:29.509] Adding entry into typings cache: 'generate-changelog' => '/home/shane/.cache/typescript/3.2/node_modules/@types/generate-changelog/index.d.ts'
+[14:5:29.510] Adding entry into typings cache: 'git-rev-sync' => '/home/shane/.cache/typescript/3.2/node_modules/@types/git-rev-sync/index.d.ts'
+[14:5:29.512] Adding entry into typings cache: 'glob' => '/home/shane/.cache/typescript/3.2/node_modules/@types/glob/index.d.ts'
+[14:5:29.514] Adding entry into typings cache: 'grunt' => '/home/shane/.cache/typescript/3.2/node_modules/@types/grunt/index.d.ts'
+[14:5:29.515] Adding entry into typings cache: 'hashring' => '/home/shane/.cache/typescript/3.2/node_modules/@types/hashring/index.d.ts'
+[14:5:29.517] Adding entry into typings cache: 'hat' => '/home/shane/.cache/typescript/3.2/node_modules/@types/hat/index.d.ts'
+[14:5:29.519] Adding entry into typings cache: 'he' => '/home/shane/.cache/typescript/3.2/node_modules/@types/he/index.d.ts'
+[14:5:29.520] Adding entry into typings cache: 'heap' => '/home/shane/.cache/typescript/3.2/node_modules/@types/heap/index.d.ts'
+[14:5:29.523] Adding entry into typings cache: 'imagemin' => '/home/shane/.cache/typescript/3.2/node_modules/@types/imagemin/index.d.ts'
+[14:5:29.526] Adding entry into typings cache: 'inherits' => '/home/shane/.cache/typescript/3.2/node_modules/@types/inherits/index.d.ts'
+[14:5:29.529] Adding entry into typings cache: 'is-glob' => '/home/shane/.cache/typescript/3.2/node_modules/@types/is-glob/index.d.ts'
+[14:5:29.531] Adding entry into typings cache: 'is-typedarray' => '/home/shane/.cache/typescript/3.2/node_modules/@types/is-typedarray/index.d.ts'
+[14:5:29.534] Adding entry into typings cache: 'isstream' => '/home/shane/.cache/typescript/3.2/node_modules/@types/isstream/index.d.ts'
+[14:5:29.535] Adding entry into typings cache: 'jquery' => '/home/shane/.cache/typescript/3.2/node_modules/@types/jquery/index.d.ts'
+[14:5:29.536] Adding entry into typings cache: 'js-yaml' => '/home/shane/.cache/typescript/3.2/node_modules/@types/js-yaml/index.d.ts'
+[14:5:29.537] Adding entry into typings cache: 'json-stringify-safe' => '/home/shane/.cache/typescript/3.2/node_modules/@types/json-stringify-safe/index.d.ts'
+[14:5:29.539] Adding entry into typings cache: 'karma' => '/home/shane/.cache/typescript/3.2/node_modules/@types/karma/index.d.ts'
+[14:5:29.540] Adding entry into typings cache: 'karma-chrome-launcher' => '/home/shane/.cache/typescript/3.2/node_modules/@types/karma-chrome-launcher/index.d.ts'
+[14:5:29.541] Adding entry into typings cache: 'karma-coverage' => '/home/shane/.cache/typescript/3.2/node_modules/@types/karma-coverage/index.d.ts'
+[14:5:29.542] Adding entry into typings cache: 'karma-coverage-istanbul-reporter' => '/home/shane/.cache/typescript/3.2/node_modules/@types/karma-coverage-istanbul-reporter/index.d.ts'
+[14:5:29.543] Adding entry into typings cache: 'karma-firefox-launcher' => '/home/shane/.cache/typescript/3.2/node_modules/@types/karma-firefox-launcher/index.d.ts'
+[14:5:29.545] Adding entry into typings cache: 'karma-jasmine' => '/home/shane/.cache/typescript/3.2/node_modules/@types/karma-jasmine/index.d.ts'
+[14:5:29.546] Adding entry into typings cache: 'karma-webpack' => '/home/shane/.cache/typescript/3.2/node_modules/@types/karma-webpack/index.d.ts'
+[14:5:29.549] Adding entry into typings cache: 'lodash' => '/home/shane/.cache/typescript/3.2/node_modules/@types/lodash/index.d.ts'
+[14:5:29.551] Adding entry into typings cache: 'lodash.uniqueid' => '/home/shane/.cache/typescript/3.2/node_modules/@types/lodash.uniqueid/index.d.ts'
+[14:5:29.553] Adding entry into typings cache: 'magnet-uri' => '/home/shane/.cache/typescript/3.2/node_modules/@types/magnet-uri/index.d.ts'
+[14:5:29.555] Adding entry into typings cache: 'marked' => '/home/shane/.cache/typescript/3.2/node_modules/@types/marked/index.d.ts'
+[14:5:29.557] Adding entry into typings cache: 'messenger' => '/home/shane/.cache/typescript/3.2/node_modules/@types/messenger/index.d.ts'
+[14:5:29.562] Adding entry into typings cache: 'mime-types' => '/home/shane/.cache/typescript/3.2/node_modules/@types/mime-types/index.d.ts'
+[14:5:29.563] Adding entry into typings cache: 'mini-css-extract-plugin' => '/home/shane/.cache/typescript/3.2/node_modules/@types/mini-css-extract-plugin/index.d.ts'
+[14:5:29.565] Adding entry into typings cache: 'minimist' => '/home/shane/.cache/typescript/3.2/node_modules/@types/minimist/index.d.ts'
+[14:5:29.566] Adding entry into typings cache: 'mkdirp' => '/home/shane/.cache/typescript/3.2/node_modules/@types/mkdirp/index.d.ts'
+[14:5:29.568] Adding entry into typings cache: 'mocha' => '/home/shane/.cache/typescript/3.2/node_modules/@types/mocha/index.d.ts'
+[14:5:29.569] Adding entry into typings cache: 'moment-duration-format' => '/home/shane/.cache/typescript/3.2/node_modules/@types/moment-duration-format/index.d.ts'
+[14:5:29.573] Adding entry into typings cache: 'node' => '/home/shane/.cache/typescript/3.2/node_modules/@types/node/ts3.2/index.d.ts'
+[14:5:29.574] Adding entry into typings cache: 'node-fetch' => '/home/shane/.cache/typescript/3.2/node_modules/@types/node-fetch/index.d.ts'
+[14:5:29.574] Adding entry into typings cache: 'node-sass' => '/home/shane/.cache/typescript/3.2/node_modules/@types/node-sass/index.d.ts'
+[14:5:29.576] Adding entry into typings cache: 'object-assign' => '/home/shane/.cache/typescript/3.2/node_modules/@types/object-assign/index.d.ts'
+[14:5:29.577] Adding entry into typings cache: 'once' => '/home/shane/.cache/typescript/3.2/node_modules/@types/once/index.d.ts'
+[14:5:29.577] Adding entry into typings cache: 'phantomjs' => '/home/shane/.cache/typescript/3.2/node_modules/@types/phantomjs/index.d.ts'
+[14:5:29.578] Adding entry into typings cache: 'postcss-flexbugs-fixes' => '/home/shane/.cache/typescript/3.2/node_modules/@types/postcss-flexbugs-fixes/index.d.ts'
+[14:5:29.579] Adding entry into typings cache: 'postcss-import' => '/home/shane/.cache/typescript/3.2/node_modules/@types/postcss-import/index.d.ts'
+[14:5:29.581] Adding entry into typings cache: 'prettier' => '/home/shane/.cache/typescript/3.2/node_modules/@types/prettier/index.d.ts'
+[14:5:29.582] Adding entry into typings cache: 'prettyjson' => '/home/shane/.cache/typescript/3.2/node_modules/@types/prettyjson/index.d.ts'
+[14:5:29.583] Adding entry into typings cache: 'prismjs' => '/home/shane/.cache/typescript/3.2/node_modules/@types/prismjs/index.d.ts'
+[14:5:29.585] Adding entry into typings cache: 'promise-memoize' => '/home/shane/.cache/typescript/3.2/node_modules/@types/promise-memoize/index.d.ts'
+[14:5:29.586] Adding entry into typings cache: 'puppeteer' => '/home/shane/.cache/typescript/3.2/node_modules/@types/puppeteer/index.d.ts'
+[14:5:29.588] Adding entry into typings cache: 'qs' => '/home/shane/.cache/typescript/3.2/node_modules/@types/qs/index.d.ts'
+[14:5:29.590] Adding entry into typings cache: 'randomstring' => '/home/shane/.cache/typescript/3.2/node_modules/@types/randomstring/index.d.ts'
+[14:5:29.591] Adding entry into typings cache: 'rc' => '/home/shane/.cache/typescript/3.2/node_modules/@types/rc/index.d.ts'
+[14:5:29.592] Adding entry into typings cache: 'react' => '/home/shane/.cache/typescript/3.2/node_modules/@types/react/index.d.ts'
+[14:5:29.594] Adding entry into typings cache: 'react-dom' => '/home/shane/.cache/typescript/3.2/node_modules/@types/react-dom/index.d.ts'
+[14:5:29.596] Adding entry into typings cache: 'react-native' => '/home/shane/.cache/typescript/3.2/node_modules/@types/react-native/index.d.ts'
+[14:5:29.596] Adding entry into typings cache: 'request' => '/home/shane/.cache/typescript/3.2/node_modules/@types/request/index.d.ts'
+[14:5:29.598] Adding entry into typings cache: 'rimraf' => '/home/shane/.cache/typescript/3.2/node_modules/@types/rimraf/index.d.ts'
+[14:5:29.599] Adding entry into typings cache: 'sass' => '/home/shane/.cache/typescript/3.2/node_modules/@types/sass/index.d.ts'
+[14:5:29.601] Adding entry into typings cache: 'sass-loader' => '/home/shane/.cache/typescript/3.2/node_modules/@types/sass-loader/index.d.ts'
+[14:5:29.602] Adding entry into typings cache: 'secp256k1' => '/home/shane/.cache/typescript/3.2/node_modules/@types/secp256k1/index.d.ts'
+[14:5:29.603] Adding entry into typings cache: 'showdown' => '/home/shane/.cache/typescript/3.2/node_modules/@types/showdown/index.d.ts'
+[14:5:29.605] Adding entry into typings cache: 'sinon' => '/home/shane/.cache/typescript/3.2/node_modules/@types/sinon/index.d.ts'
+[14:5:29.606] Adding entry into typings cache: 'sinon-chai' => '/home/shane/.cache/typescript/3.2/node_modules/@types/sinon-chai/index.d.ts'
+[14:5:29.607] Adding entry into typings cache: 'source-map-support' => '/home/shane/.cache/typescript/3.2/node_modules/@types/source-map-support/index.d.ts'
+[14:5:29.609] Adding entry into typings cache: 'split' => '/home/shane/.cache/typescript/3.2/node_modules/@types/split/index.d.ts'
+[14:5:29.611] Adding entry into typings cache: 'sprintf' => '/home/shane/.cache/typescript/3.2/node_modules/@types/sprintf/index.d.ts'
+[14:5:29.612] Adding entry into typings cache: 'string-similarity' => '/home/shane/.cache/typescript/3.2/node_modules/@types/string-similarity/index.d.ts'
+[14:5:29.613] Adding entry into typings cache: 'through' => '/home/shane/.cache/typescript/3.2/node_modules/@types/through/index.d.ts'
+[14:5:29.615] Adding entry into typings cache: 'tough-cookie' => '/home/shane/.cache/typescript/3.2/node_modules/@types/tough-cookie/index.d.ts'
+[14:5:29.616] Adding entry into typings cache: 'ua-parser-js' => '/home/shane/.cache/typescript/3.2/node_modules/@types/ua-parser-js/index.d.ts'
+[14:5:29.617] Adding entry into typings cache: 'underscore.string' => '/home/shane/.cache/typescript/3.2/node_modules/@types/underscore.string/index.d.ts'
+[14:5:29.618] Adding entry into typings cache: 'uuid' => '/home/shane/.cache/typescript/3.2/node_modules/@types/uuid/index.d.ts'
+[14:5:29.620] Adding entry into typings cache: 'vue-select' => '/home/shane/.cache/typescript/3.2/node_modules/@types/vue-select/index.d.ts'
+[14:5:29.621] Adding entry into typings cache: 'webpack' => '/home/shane/.cache/typescript/3.2/node_modules/@types/webpack/index.d.ts'
+[14:5:29.622] Adding entry into typings cache: 'webpack-bundle-analyzer' => '/home/shane/.cache/typescript/3.2/node_modules/@types/webpack-bundle-analyzer/index.d.ts'
+[14:5:29.624] Adding entry into typings cache: 'webpack-dev-middleware' => '/home/shane/.cache/typescript/3.2/node_modules/@types/webpack-dev-middleware/index.d.ts'
+[14:5:29.625] Adding entry into typings cache: 'webpack-dev-server' => '/home/shane/.cache/typescript/3.2/node_modules/@types/webpack-dev-server/index.d.ts'
+[14:5:29.626] Adding entry into typings cache: 'webpack-hot-middleware' => '/home/shane/.cache/typescript/3.2/node_modules/@types/webpack-hot-middleware/index.d.ts'
+[14:5:29.627] Adding entry into typings cache: 'webtorrent' => '/home/shane/.cache/typescript/3.2/node_modules/@types/webtorrent/index.d.ts'
+[14:5:29.629] Adding entry into typings cache: 'ws' => '/home/shane/.cache/typescript/3.2/node_modules/@types/ws/index.d.ts'
+[14:5:29.629] Adding entry into typings cache: 'xo' => '/home/shane/.cache/typescript/3.2/node_modules/@types/xo/index.d.ts'
+[14:5:29.630] Adding entry into typings cache: 'zepto' => '/home/shane/.cache/typescript/3.2/node_modules/@types/zepto/index.d.ts'
+[14:5:29.630] Finished processing cache location '/home/shane/.cache/typescript/3.2'
+[14:5:29.631] Process id: 9709
+[14:5:29.631] NPM location: "/home/shane/dump/programs/node-v15.11.0-linux-x64/bin/npm" (explicit '--npmLocation' not  provided)
+[14:5:29.631] Npm config file: /home/shane/.cache/typescript/3.2/package.json
+[14:5:29.631] Updating types-registry npm package...
+[14:5:29.631] Exec: "/home/shane/dump/programs/node-v15.11.0-linux-x64/bin/npm" install --ignore-scripts types-registry@latest
+[14:5:31.761]     Succeeded. stdout:
+    
+    up to date, audited 191 packages in 2s
+
+found 0 vulnerabilities
+
+[14:5:31.761] Updated types-registry npm package
+[14:5:35.450] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/local/lib/node_modules/typescript/lib/lib.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/urban_dictionary.ipynb"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks","kind":"discover"}
+[14:5:35.456] Loaded safelist from types map file '/usr/local/lib/node_modules/typescript/lib/typesMap.json'
+[14:5:35.457] Explicitly included types: []
+[14:5:35.457] Inferred typings from unresolved imports: []
+[14:5:35.457] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/bower_components","/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/node_modules"]}
+[14:5:35.458] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/bower_components","/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/node_modules"]}
+[14:5:35.458] DirectoryWatcher:: Added:: WatchInfo: /home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/bower_components
+[14:5:35.459] DirectoryWatcher:: Added:: WatchInfo: /home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/node_modules
+[14:5:35.459] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[14:5:35.459] Response has been sent.
+[14:5:35.459] No new typings were requested as a result of typings discovery
+[14:5:35.460] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks","kind":"discover"}
+[14:5:35.460] Explicitly included types: []
+[14:5:35.460] Inferred typings from unresolved imports: []
+[14:5:35.460] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/bower_components","/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/node_modules"]}
+[14:5:35.460] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/bower_components","/home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/node_modules"]}
+[14:5:35.460] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[14:5:35.460] Response has been sent.
+[14:5:35.460] No new typings were requested as a result of typings discovery

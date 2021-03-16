@@ -1,0 +1,733 @@
+word (2&.endpoints.word_service.WordDefinitionRword*	word_service/word_service_proto/api_descriptor.pb	/^word (2&.endpoints.word_service.WordDefinitionRword*:$/;"	l
+DefineWordResponse	word_service/word_service_proto/api_descriptor.pb	/^DefineWordResponse:$/;"	l
+GenerateWordResponse	word_service/word_service_proto/api_descriptor.pb	/^GenerateWordResponse:$/;"	l
+WordFromDefinitionResponse	word_service/word_service_proto/api_descriptor.pb	/^WordFromDefinitionResponse:$/;"	l
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AppleDictParser	title_maker_pro/dictionary_definition.py	/^class AppleDictParser:$/;"	c
+BOS_TOKEN	title_maker_pro/datasets.py	/^    BOS_TOKEN = "<|bod|>"$/;"	v	class:SpecialTokens
+BinaryDictionaryDefinitionDataset	title_maker_pro/datasets.py	/^class BinaryDictionaryDefinitionDataset(Dataset):$/;"	c
+Blacklist	title_maker_pro/datasets.py	/^class Blacklist:$/;"	c
+DEFINITION_SEP	title_maker_pro/datasets.py	/^    DEFINITION_SEP = "<|bd|>"$/;"	v	class:SpecialTokens
+DESCRIPTOR	word_service/word_service_proto/wordservice_pb2.py	/^  DESCRIPTOR = _DEFINEWORDREQUEST,$/;"	v
+DESCRIPTOR	word_service/word_service_proto/wordservice_pb2.py	/^  DESCRIPTOR = _DEFINEWORDRESPONSE,$/;"	v
+DESCRIPTOR	word_service/word_service_proto/wordservice_pb2.py	/^  DESCRIPTOR = _GENERATEWORDREQUEST,$/;"	v
+DESCRIPTOR	word_service/word_service_proto/wordservice_pb2.py	/^  DESCRIPTOR = _GENERATEWORDRESPONSE,$/;"	v
+DESCRIPTOR	word_service/word_service_proto/wordservice_pb2.py	/^  DESCRIPTOR = _WORDDEFINITION,$/;"	v
+DESCRIPTOR	word_service/word_service_proto/wordservice_pb2.py	/^  DESCRIPTOR = _WORDFROMDEFINITIONREQUEST,$/;"	v
+DESCRIPTOR	word_service/word_service_proto/wordservice_pb2.py	/^  DESCRIPTOR = _WORDFROMDEFINITIONRESPONSE,$/;"	v
+DESCRIPTOR	word_service/word_service_proto/wordservice_pb2.py	/^DESCRIPTOR = _descriptor.FileDescriptor($/;"	v
+DatasetType	word_service/word_service_proto/wordservice_pb2.py	/^DatasetType = enum_type_wrapper.EnumTypeWrapper(_DATASETTYPE)$/;"	v
+DefineWord	word_service/word_service_proto/wordservice_grpc.py	/^    async def DefineWord(self, stream: 'grpclib.server.Stream[wordservice_pb2.DefineWordRequest, wordservice_pb2.DefineWordResponse]') -> None:$/;"	m	class:WordServiceBase
+DefineWord	word_service/word_service_proto/wordservice_pb2_grpc.py	/^  def DefineWord(self, request, context):$/;"	m	class:WordServiceServicer
+DefineWord	word_service/wordservice_server.py	/^    def DefineWord(self, request, context):$/;"	m	class:WordServiceServicer
+DefineWordRequest	word_service/word_service_proto/wordservice_pb2.py	/^DefineWordRequest = _reflection.GeneratedProtocolMessageType('DefineWordRequest', (_message.Message,), dict($/;"	v
+DefineWordResponse	word_service/word_service_proto/wordservice_pb2.py	/^DefineWordResponse = _reflection.GeneratedProtocolMessageType('DefineWordResponse', (_message.Message,), dict($/;"	v
+Definition	title_maker_pro/dictionary_definition.py	/^class Definition:$/;"	c
+DictionaryDefinition	title_maker_pro/dictionary_definition.py	/^class DictionaryDefinition:$/;"	c
+EOS_TOKEN	title_maker_pro/datasets.py	/^    EOS_TOKEN = "<|eod|>"$/;"	v	class:SpecialTokens
+EXAMPLE_SEP	title_maker_pro/datasets.py	/^    EXAMPLE_SEP = "<|be|>"$/;"	v	class:SpecialTokens
+Entry	title_maker_pro/dictionary_definition.py	/^class Entry:$/;"	c
+GPT2LMHeadWithWeightedLossModel	title_maker_pro/modeling.py	/^class GPT2LMHeadWithWeightedLossModel(GPT2LMHeadModel):$/;"	c
+GenerateWord	word_service/word_service_proto/wordservice_grpc.py	/^    async def GenerateWord(self, stream: 'grpclib.server.Stream[wordservice_pb2.GenerateWordRequest, wordservice_pb2.GenerateWordResponse]') -> None:$/;"	m	class:WordServiceBase
+GenerateWord	word_service/word_service_proto/wordservice_pb2_grpc.py	/^  def GenerateWord(self, request, context):$/;"	m	class:WordServiceServicer
+GenerateWord	word_service/wordservice_server.py	/^    def GenerateWord(self, request, context):$/;"	m	class:WordServiceServicer
+GenerateWordRequest	word_service/word_service_proto/wordservice_pb2.py	/^GenerateWordRequest = _reflection.GeneratedProtocolMessageType('GenerateWordRequest', (_message.Message,), dict($/;"	v
+GenerateWordResponse	word_service/word_service_proto/wordservice_pb2.py	/^GenerateWordResponse = _reflection.GeneratedProtocolMessageType('GenerateWordResponse', (_message.Message,), dict($/;"	v
+GeneratedWord	title_maker_pro/datasets.py	/^class GeneratedWord:$/;"	c
+GeneratedWord	title_maker_pro/urban_dictionary_scraper.py	/^class GeneratedWord:$/;"	c
+GeneratedWordCandidate	title_maker_pro/datasets.py	/^class GeneratedWordCandidate:$/;"	c
+GenerationStats	title_maker_pro/datasets.py	/^class GenerationStats:$/;"	c
+Handlers	website/main.py	/^class Handlers:$/;"	c
+InvalidParseAssumptionError	title_maker_pro/dictionary_definition.py	/^class InvalidParseAssumptionError(RuntimeError):$/;"	c
+InverseParsedDictionaryDefinitionDataset	title_maker_pro/datasets.py	/^class InverseParsedDictionaryDefinitionDataset(Dataset):$/;"	c
+LineByLineTextDataset	title_maker_pro/train.py	/^class LineByLineTextDataset(Dataset):$/;"	c
+MAX_TOKEN_LIFETIME_SECS	deploy/word_service/jwt_token_gen.py	/^MAX_TOKEN_LIFETIME_SECS = 3600$/;"	v
+MAX_TWEET_LENGTH	title_maker_pro/twitter_bot.py	/^MAX_TWEET_LENGTH = 250$/;"	v
+MODEL_CLASSES	title_maker_pro/train.py	/^MODEL_CLASSES = {$/;"	v
+OED	word_service/word_service_proto/wordservice_pb2.py	/^OED = 0$/;"	v
+PAD	title_maker_pro/datasets.py	/^    PAD = "<|pad|>"$/;"	v	class:SpecialTokens
+POS_SEP	title_maker_pro/datasets.py	/^    POS_SEP = "<|pos|>"$/;"	v	class:SpecialTokens
+ParsedDictionaryDefinitionDataset	title_maker_pro/datasets.py	/^class ParsedDictionaryDefinitionDataset(Dataset):$/;"	c
+Pronounciation	title_maker_pro/dictionary_definition.py	/^class Pronounciation:$/;"	c
+ReferenceDefinition	title_maker_pro/dictionary_definition.py	/^class ReferenceDefinition:$/;"	c
+RenamingUnpickler	title_maker_pro/datasets.py	/^        class RenamingUnpickler(pickle.Unpickler):$/;"	c	function:Blacklist.from_urban_dictionary
+Sense	title_maker_pro/dictionary_definition.py	/^class Sense:$/;"	c
+SpecialTokens	title_maker_pro/datasets.py	/^class SpecialTokens:$/;"	c
+StatusError	title_maker_pro/urban_dictionary_scraper.py	/^class StatusError(RuntimeError):$/;"	c
+TOPIC_SEP	title_maker_pro/datasets.py	/^    TOPIC_SEP = "<|bto|>"$/;"	v	class:SpecialTokens
+TextDataset	title_maker_pro/train.py	/^class TextDataset(Dataset):$/;"	c
+TokenGroup	title_maker_pro/datasets.py	/^class TokenGroup(NamedTuple):$/;"	c
+UD_FILTERED	word_service/word_service_proto/wordservice_pb2.py	/^UD_FILTERED = 1$/;"	v
+UD_ROOT	title_maker_pro/urban_dictionary_scraper.py	/^UD_ROOT = "https:\/\/www.urbandictionary.com"$/;"	v
+UD_UNFILTERED	word_service/word_service_proto/wordservice_pb2.py	/^UD_UNFILTERED = 2$/;"	v
+ULTRA_BAD_REGEX	title_maker_pro/bad_words.py	/^ULTRA_BAD_REGEX = re.compile($/;"	v
+UrbanDictionaryDataset	title_maker_pro/datasets.py	/^class UrbanDictionaryDataset(Dataset):$/;"	c
+UrbanDictionaryDefinition	title_maker_pro/urban_dictionary_scraper.py	/^class UrbanDictionaryDefinition:$/;"	c
+UrbanDictionaryIndexPage	title_maker_pro/urban_dictionary_scraper.py	/^class UrbanDictionaryIndexPage:$/;"	c
+UrbanDictionaryWord	title_maker_pro/urban_dictionary_scraper.py	/^class UrbanDictionaryWord:$/;"	c
+UrbanDictionaryWordURL	title_maker_pro/urban_dictionary_scraper.py	/^class UrbanDictionaryWordURL:$/;"	c
+W	title_maker_pro/model_generation.py	/^        W=b,$/;"	v
+W	title_maker_pro/model_generation.py	/^        W=conv_1D_proj_weights,$/;"	v
+W	title_maker_pro/model_generation.py	/^        W=conv_1D_weights,$/;"	v
+W	title_maker_pro/model_generation.py	/^        W=ln_2_weight,$/;"	v
+W	title_maker_pro/model_generation.py	/^        W=ln_weight,$/;"	v
+W	title_maker_pro/model_generation.py	/^        W=mlp_conv_1D_fc_weights,$/;"	v
+W	title_maker_pro/model_generation.py	/^        W=mlp_conv_1D_proj_weights,$/;"	v
+W	title_maker_pro/model_generation.py	/^        W=np.array(1 \/ 8),$/;"	v
+W	title_maker_pro/model_generation.py	/^    W=lm_head_weights,$/;"	v
+W	title_maker_pro/model_generation.py	/^    W=ln_f_weight,$/;"	v
+W	title_maker_pro/model_generation.py	/^    W=wpe,$/;"	v
+W	title_maker_pro/model_generation.py	/^    W=wte,$/;"	v
+WikiArticle	title_maker_pro/datasets.py	/^class WikiArticle:$/;"	c
+WikiArticleTitleDataset	title_maker_pro/datasets.py	/^class WikiArticleTitleDataset(Dataset):$/;"	c
+Word	website/words.py	/^class Word:$/;"	c
+WordDefinition	word_service/word_service_proto/wordservice_pb2.py	/^WordDefinition = _reflection.GeneratedProtocolMessageType('WordDefinition', (_message.Message,), dict($/;"	v
+WordFromDefinition	word_service/word_service_proto/wordservice_grpc.py	/^    async def WordFromDefinition(self, stream: 'grpclib.server.Stream[wordservice_pb2.WordFromDefinitionRequest, wordservice_pb2.WordFromDefinitionResponse]') -> None:$/;"	m	class:WordServiceBase
+WordFromDefinition	word_service/word_service_proto/wordservice_pb2_grpc.py	/^  def WordFromDefinition(self, request, context):$/;"	m	class:WordServiceServicer
+WordFromDefinition	word_service/wordservice_server.py	/^    def WordFromDefinition(self, request, context):$/;"	m	class:WordServiceServicer
+WordFromDefinitionRequest	word_service/word_service_proto/wordservice_pb2.py	/^WordFromDefinitionRequest = _reflection.GeneratedProtocolMessageType('WordFromDefinitionRequest', (_message.Message,), dict($/;"	v
+WordFromDefinitionResponse	word_service/word_service_proto/wordservice_pb2.py	/^WordFromDefinitionResponse = _reflection.GeneratedProtocolMessageType('WordFromDefinitionResponse', (_message.Message,), dict($/;"	v
+WordGenerator	title_maker_pro/word_generator.py	/^class WordGenerator:$/;"	c
+WordIndex	website/words.py	/^class WordIndex:$/;"	c
+WordServiceBase	word_service/word_service_proto/wordservice_grpc.py	/^class WordServiceBase(abc.ABC):$/;"	c
+WordServiceServicer	word_service/word_service_proto/wordservice_pb2_grpc.py	/^class WordServiceServicer(object):$/;"	c
+WordServiceServicer	word_service/wordservice_server.py	/^class WordServiceServicer(wordservice_pb2_grpc.WordServiceServicer):$/;"	c
+WordServiceStub	word_service/word_service_proto/wordservice_grpc.py	/^class WordServiceStub:$/;"	c
+WordServiceStub	word_service/word_service_proto/wordservice_pb2_grpc.py	/^class WordServiceStub(object):$/;"	c
+_DATASETTYPE	word_service/word_service_proto/wordservice_pb2.py	/^_DATASETTYPE = _descriptor.EnumDescriptor($/;"	v
+_DEFINEWORDREQUEST	word_service/word_service_proto/wordservice_pb2.py	/^_DEFINEWORDREQUEST = _descriptor.Descriptor($/;"	v
+_DEFINEWORDRESPONSE	word_service/word_service_proto/wordservice_pb2.py	/^_DEFINEWORDRESPONSE = _descriptor.Descriptor($/;"	v
+_GENERATEWORDREQUEST	word_service/word_service_proto/wordservice_pb2.py	/^_GENERATEWORDREQUEST = _descriptor.Descriptor($/;"	v
+_GENERATEWORDRESPONSE	word_service/word_service_proto/wordservice_pb2.py	/^_GENERATEWORDRESPONSE = _descriptor.Descriptor($/;"	v
+_WORDDEFINITION	word_service/word_service_proto/wordservice_pb2.py	/^_WORDDEFINITION = _descriptor.Descriptor($/;"	v
+_WORDFROMDEFINITIONREQUEST	word_service/word_service_proto/wordservice_pb2.py	/^_WORDFROMDEFINITIONREQUEST = _descriptor.Descriptor($/;"	v
+_WORDFROMDEFINITIONRESPONSE	word_service/word_service_proto/wordservice_pb2.py	/^_WORDFROMDEFINITIONRESPONSE = _descriptor.Descriptor($/;"	v
+_WORDSERVICE	word_service/word_service_proto/wordservice_pb2.py	/^_WORDSERVICE = _descriptor.ServiceDescriptor($/;"	v
+__getitem__	title_maker_pro/datasets.py	/^    def __getitem__(self, item):$/;"	m	class:BinaryDictionaryDefinitionDataset	file:
+__getitem__	title_maker_pro/datasets.py	/^    def __getitem__(self, item):$/;"	m	class:InverseParsedDictionaryDefinitionDataset	file:
+__getitem__	title_maker_pro/datasets.py	/^    def __getitem__(self, item):$/;"	m	class:ParsedDictionaryDefinitionDataset	file:
+__getitem__	title_maker_pro/datasets.py	/^    def __getitem__(self, item):$/;"	m	class:UrbanDictionaryDataset	file:
+__getitem__	title_maker_pro/datasets.py	/^    def __getitem__(self, item):$/;"	m	class:WikiArticleTitleDataset	file:
+__getitem__	title_maker_pro/train.py	/^    def __getitem__(self, i):$/;"	m	class:LineByLineTextDataset	file:
+__getitem__	title_maker_pro/train.py	/^    def __getitem__(self, item):$/;"	m	class:TextDataset	file:
+__init__	title_maker_pro/datasets.py	/^    def __init__($/;"	m	class:BinaryDictionaryDefinitionDataset
+__init__	title_maker_pro/datasets.py	/^    def __init__($/;"	m	class:UrbanDictionaryDataset
+__init__	title_maker_pro/datasets.py	/^    def __init__(self, blacklist_set):$/;"	m	class:Blacklist
+__init__	title_maker_pro/datasets.py	/^    def __init__(self, tokenizer: PreTrainedTokenizer, args, file_path: str, block_size=512):$/;"	m	class:WikiArticleTitleDataset
+__init__	title_maker_pro/datasets.py	/^    def __init__(self, tokenizer: PreTrainedTokenizer, args, file_path: str, splits=(1.0), split_idx=0):$/;"	m	class:InverseParsedDictionaryDefinitionDataset
+__init__	title_maker_pro/datasets.py	/^    def __init__(self, tokenizer: PreTrainedTokenizer, args, file_path: str, splits=(1.0), split_idx=0):$/;"	m	class:ParsedDictionaryDefinitionDataset
+__init__	title_maker_pro/train.py	/^    def __init__(self, tokenizer: PreTrainedTokenizer, args, file_path: str, block_size=512):$/;"	m	class:LineByLineTextDataset
+__init__	title_maker_pro/train.py	/^    def __init__(self, tokenizer: PreTrainedTokenizer, args, file_path: str, block_size=512):$/;"	m	class:TextDataset
+__init__	title_maker_pro/urban_dictionary_scraper.py	/^    def __init__(self, code, string):$/;"	m	class:StatusError
+__init__	title_maker_pro/word_generator.py	/^    def __init__(self, forward_model_path, inverse_model_path, blacklist_path, quantize=False, device=None, is_urban=False):$/;"	m	class:WordGenerator
+__init__	website/main.py	/^    def __init__($/;"	m	class:Handlers
+__init__	website/words.py	/^    def __init__(self, words):$/;"	m	class:WordIndex
+__init__	word_service/word_service_proto/wordservice_grpc.py	/^    def __init__(self, channel: grpclib.client.Channel) -> None:$/;"	m	class:WordServiceStub
+__init__	word_service/word_service_proto/wordservice_pb2_grpc.py	/^  def __init__(self, channel):$/;"	m	class:WordServiceStub
+__init__	word_service/wordservice_server.py	/^    def __init__(self, word_generator, hyphenator, urban_generator):$/;"	m	class:WordServiceServicer
+__len__	title_maker_pro/datasets.py	/^    def __len__(self):$/;"	m	class:BinaryDictionaryDefinitionDataset	file:
+__len__	title_maker_pro/datasets.py	/^    def __len__(self):$/;"	m	class:Blacklist	file:
+__len__	title_maker_pro/datasets.py	/^    def __len__(self):$/;"	m	class:InverseParsedDictionaryDefinitionDataset	file:
+__len__	title_maker_pro/datasets.py	/^    def __len__(self):$/;"	m	class:ParsedDictionaryDefinitionDataset	file:
+__len__	title_maker_pro/datasets.py	/^    def __len__(self):$/;"	m	class:UrbanDictionaryDataset	file:
+__len__	title_maker_pro/datasets.py	/^    def __len__(self):$/;"	m	class:WikiArticleTitleDataset	file:
+__len__	title_maker_pro/train.py	/^    def __len__(self):$/;"	m	class:LineByLineTextDataset	file:
+__len__	title_maker_pro/train.py	/^    def __len__(self):$/;"	m	class:TextDataset	file:
+__mapping__	word_service/word_service_proto/wordservice_grpc.py	/^    def __mapping__(self) -> typing.Dict[str, grpclib.const.Handler]:$/;"	m	class:WordServiceBase	file:
+__module__	word_service/word_service_proto/wordservice_pb2.py	/^  __module__ = 'wordservice_pb2'$/;"	v
+__str__	title_maker_pro/datasets.py	/^    def __str__(self):$/;"	m	class:GenerationStats	file:
+_access_zero_assert	title_maker_pro/datasets.py	/^def _access_zero_assert(item):$/;"	f
+_b	word_service/word_service_proto/wordservice_pb2.py	/^_b=sys.version_info[0]<3 and (lambda x:x) or (lambda x:x.encode('latin1'))$/;"	v
+_cache_path	title_maker_pro/datasets.py	/^def _cache_path(class_name, base_directory, filename, **keys):$/;"	f
+_cached_fetch_word_definition	website/main.py	/^    async def _cached_fetch_word_definition(self, word, dataset):$/;"	m	class:Handlers
+_definition_str	title_maker_pro/twitter_bot.py	/^def _definition_str(word_with_definition):$/;"	f
+_dev_handlers	website/main.py	/^def _dev_handlers():$/;"	f
+_fetch_last_processed_id	title_maker_pro/twitter_bot.py	/^def _fetch_last_processed_id(api, app_name):$/;"	f
+_fetch_word_lambda	title_maker_pro/urban_dictionary_scraper.py	/^def _fetch_word_lambda(session, word_url):$/;"	f
+_formulate_reply_text	title_maker_pro/twitter_bot.py	/^def _formulate_reply_text(word_generator, text, author_name, max_len=250):$/;"	f
+_formulate_wotd_text	title_maker_pro/twitter_bot.py	/^def _formulate_wotd_text(word_with_definition, emoji):$/;"	f
+_full_permalink_url	website/main.py	/^    def _full_permalink_url(self, view_word, permalink):$/;"	m	class:Handlers
+_gelu_new	title_maker_pro/modeling.py	/^def _gelu_new(x):$/;"	f
+_generate_no_beam_search	title_maker_pro/custom_modeling_utils.py	/^def _generate_no_beam_search($/;"	f
+_grpc_nonretriable	website/main.py	/^def _grpc_nonretriable(e: GRPCError):$/;"	f
+_in_split_range	title_maker_pro/datasets.py	/^def _in_split_range(split_range, randomizer_str):$/;"	f
+_index_response	website/main.py	/^    def _index_response(self, request, word, word_in_title=False):$/;"	m	class:Handlers
+_inverse_definition_str	title_maker_pro/twitter_bot.py	/^def _inverse_definition_str(word_with_definition):$/;"	f
+_join_and_truncate	title_maker_pro/datasets.py	/^def _join_and_truncate($/;"	f
+_json_error	website/main.py	/^def _json_error(klass, message):$/;"	f
+_len_range_overlap	title_maker_pro/datasets.py	/^def _len_range_overlap(x, y):$/;"	f
+_load_word_indexes_from_base_dir	website/main.py	/^def _load_word_indexes_from_base_dir(base_dir):$/;"	f
+_make_example	title_maker_pro/datasets.py	/^    def _make_example(cls, tokenizer, definition):$/;"	m	class:BinaryDictionaryDefinitionDataset
+_make_example	title_maker_pro/datasets.py	/^    def _make_example(tokenizer, text_tokens, title_tokens):$/;"	m	class:WikiArticleTitleDataset
+_make_examples	title_maker_pro/datasets.py	/^    def _make_examples(self, tokenizer, entry: dictionary_definition.Entry):$/;"	m	class:InverseParsedDictionaryDefinitionDataset
+_make_examples	title_maker_pro/datasets.py	/^    def _make_examples(self, tokenizer, entry: dictionary_definition.Entry):$/;"	m	class:ParsedDictionaryDefinitionDataset
+_make_examples	title_maker_pro/datasets.py	/^    def _make_examples(self, tokenizer, word):$/;"	m	class:UrbanDictionaryDataset
+_output_range	title_maker_pro/datasets.py	/^        def _output_range(article, start, end):$/;"	f	function:WikiArticleTitleDataset.generate_text_dataset
+_paragraph_re	website/main.py	/^_paragraph_re = re.compile(r'(?:\\r\\n|\\r|\\n){2,}')$/;"	v
+_parse_definition_div	title_maker_pro/urban_dictionary_scraper.py	/^def _parse_definition_div(definition_div, url=None):$/;"	f
+_read_in_chunks	title_maker_pro/datasets.py	/^def _read_in_chunks(stream, chunk_size=1 * 1024 * 1024):$/;"	f
+_rotate_checkpoints	title_maker_pro/train.py	/^def _rotate_checkpoints(args, checkpoint_prefix="checkpoint", use_mtime=False) -> None:$/;"	f
+_sorted_checkpoints	title_maker_pro/train.py	/^def _sorted_checkpoints(args, checkpoint_prefix="checkpoint", use_mtime=False) -> List[str]:$/;"	f
+_split_range	title_maker_pro/datasets.py	/^def _split_range(splits, split_idx):$/;"	f
+_split_re	title_maker_pro/datasets.py	/^    def _split_re(cls):$/;"	m	class:ParsedDictionaryDefinitionDataset
+_split_re	title_maker_pro/datasets.py	/^    def _split_re(cls):$/;"	m	class:UrbanDictionaryDataset
+_split_re	title_maker_pro/datasets.py	/^    def _split_re(self):$/;"	m	class:InverseParsedDictionaryDefinitionDataset
+_sym_db	word_service/word_service_proto/wordservice_pb2.py	/^_sym_db = _symbol_database.Default()$/;"	v
+_tokens_match	title_maker_pro/custom_modeling_utils.py	/^    def _tokens_match(prev_tokens, tokens):$/;"	f	function:calc_banned_bad_words_ids
+_verify_recaptcha	website/main.py	/^    async def _verify_recaptcha(self, ip, token):$/;"	m	class:Handlers
+_view_word_permalink	website/main.py	/^    def _view_word_permalink(self, view_word):$/;"	m	class:Handlers
+_word_from_url	website/main.py	/^    def _word_from_url(self, request):$/;"	m	class:Handlers
+across_channels	title_maker_pro/model_generation.py	/^        across_channels=True,$/;"	v
+across_channels	title_maker_pro/model_generation.py	/^    across_channels=True,$/;"	v
+add_WordServiceServicer_to_server	word_service/word_service_proto/wordservice_pb2_grpc.py	/^def add_WordServiceServicer_to_server(servicer, server):$/;"	f
+app	website/main.py	/^def app(handlers=None):$/;"	f
+approx_pos	title_maker_pro/datasets.py	/^    def approx_pos(cls, nlp, sentence, lookup_idx, lookup_len):$/;"	m	class:ParsedDictionaryDefinitionDataset
+args	deploy/word_service/jwt_token_gen.py	/^    args = parser.parse_args()$/;"	v
+args	notebooks/fooling.py	/^args = SimpleNamespace()$/;"	v
+args	title_maker_pro/model_generation.py	/^args = parser.parse_args()$/;"	v
+args	title_maker_pro/twitter_bot.py	/^    args = parser.parse_args()$/;"	v
+args	title_maker_pro/wotd_bot.py	/^    args = parser.parse_args()$/;"	v
+args	website/main.py	/^    args = parser.parse_args()$/;"	v
+args	word_service/wordservice_client.py	/^    args = parser.parse_args()$/;"	v
+args	word_service/wordservice_server.py	/^    args = parser.parse_args()$/;"	v
+attention_mask	title_maker_pro/custom_modeling_utils.py	/^            attention_mask=attention_mask,$/;"	v
+attention_mask	title_maker_pro/custom_modeling_utils.py	/^        attention_mask = attention_mask.contiguous().view($/;"	v
+attention_mask	title_maker_pro/custom_modeling_utils.py	/^        attention_mask = attention_mask.unsqueeze(1).expand(batch_size, effective_batch_mult * num_beams, input_ids_len)$/;"	v
+attention_mask	title_maker_pro/custom_modeling_utils.py	/^        attention_mask = input_ids.ne(pad_token_id).long()$/;"	v
+attention_mask	title_maker_pro/custom_modeling_utils.py	/^        attention_mask = input_ids.new_ones(input_ids.shape)$/;"	v
+axes	title_maker_pro/model_generation.py	/^        axes=(0, 1, 3, 2, 4),$/;"	v
+axes	title_maker_pro/model_generation.py	/^        axes=(0, 1, 3, 4, 2),$/;"	v
+axes	title_maker_pro/model_generation.py	/^        axes=(1, 0, 2, 3, 4),$/;"	v
+axes	title_maker_pro/model_generation.py	/^        axes=[0, 1, 3, 2, 4],$/;"	v
+axes	title_maker_pro/model_generation.py	/^        axes=[0, 3, 4, 1, 2],$/;"	v
+axes	title_maker_pro/model_generation.py	/^        axes=[1, 0, 2, 3, 4],$/;"	v
+axes	title_maker_pro/model_generation.py	/^    axes=(1, 2, 3, 4),$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=0,$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=None,$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=bias_constant_0,$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=conv_1D_bias,$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=conv_1D_proj_bias,$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=ln_2_bias,$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=ln_bias,$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=mlp_conv_1D_fc_bias,$/;"	v
+b	title_maker_pro/model_generation.py	/^        b=mlp_conv_1D_proj_bias,$/;"	v
+b	title_maker_pro/model_generation.py	/^    b = (model.h[i].attn.bias[:, :, ns - nd : ns, :ns]).unsqueeze(0)$/;"	v
+b	title_maker_pro/model_generation.py	/^    b=None,$/;"	v
+b	title_maker_pro/model_generation.py	/^    b=ln_f_bias,$/;"	v
+backoff	title_maker_pro/urban_dictionary_scraper.py	/^    backoff=1.5,$/;"	v
+bad_words_ids	title_maker_pro/custom_modeling_utils.py	/^            bad_words_ids=bad_words_ids,$/;"	v
+bad_words_ids	title_maker_pro/custom_modeling_utils.py	/^    bad_words_ids = bad_words_ids if bad_words_ids is not None else self.config.bad_words_ids$/;"	v
+batch_size	title_maker_pro/custom_modeling_utils.py	/^            batch_size=effective_batch_size,$/;"	v
+batch_size	title_maker_pro/custom_modeling_utils.py	/^        batch_size = 1$/;"	v
+batch_size	title_maker_pro/custom_modeling_utils.py	/^        batch_size = input_ids.shape[0]  # overriden by the input batch_size$/;"	v
+bias_0	title_maker_pro/model_generation.py	/^    bias_0 = model.h[i].attn.bias$/;"	v
+bias_constant_0	title_maker_pro/model_generation.py	/^    bias_constant_0 = -1e4 * (1 - b)$/;"	v
+blacklist	notebooks/fooling.py	/^    blacklist=blacklist,$/;"	v
+blacklist	notebooks/fooling.py	/^blacklist = set((x.lower() for x in itertools.chain.from_iterable($/;"	v
+blacklist	notebooks/fooling.py	/^blacklist = set(e.title for e in pickle.load(open("data\/all_words.pickle", "rb")).values())$/;"	v
+blacklist	title_maker_pro/datasets.py	/^            blacklist = set($/;"	v	class:Blacklist.from_urban_dictionary.RenamingUnpickler
+bos_token_id	title_maker_pro/custom_modeling_utils.py	/^            bos_token_id=bos_token_id,$/;"	v
+bos_token_id	title_maker_pro/custom_modeling_utils.py	/^    bos_token_id = bos_token_id if bos_token_id is not None else self.config.bos_token_id$/;"	v
+bot_loop	title_maker_pro/twitter_bot.py	/^def bot_loop(me, api, word_generator, last_processed_id):$/;"	f
+builder	title_maker_pro/model_generation.py	/^builder = neural_network.NeuralNetworkBuilder($/;"	v
+by_name	website/words.py	/^    def by_name(self, name):$/;"	m	class:WordIndex
+calc_banned_bad_words_ids	title_maker_pro/custom_modeling_utils.py	/^def calc_banned_bad_words_ids(prev_input_ids, bad_words_ids):$/;"	f
+collapse_hyphens	title_maker_pro/datasets.py	/^    def collapse_hyphens(self):$/;"	m	class:Blacklist
+collate	title_maker_pro/train.py	/^def collate(tokenizer, examples: List[torch.Tensor]):$/;"	f
+collate	title_maker_pro/wiki_article.py	/^    def collate(examples: List[torch.Tensor]):$/;"	f	function:lm_eval
+collate_wiki	title_maker_pro/train.py	/^def collate_wiki(tokenizer, examples: List[Tuple[torch.Tensor, torch.Tensor]]):$/;"	f
+columns	notebooks/fooling.py	/^    columns=("word", "definition", "example", "dataset")$/;"	v
+containing_service	word_service/word_service_proto/wordservice_pb2.py	/^    containing_service=None,$/;"	v
+containing_type	word_service/word_service_proto/wordservice_pb2.py	/^  containing_type=None,$/;"	v
+contains	title_maker_pro/datasets.py	/^    def contains(self, word, recursive=True):$/;"	m	class:Blacklist
+context	word_service/wordservice_server.py	/^def context(grpc_context):$/;"	f
+conv_1D_bias	title_maker_pro/model_generation.py	/^    conv_1D_bias = model.h[i].attn.c_attn.bias.data.numpy().reshape((1, 1, 2304, 1, 1))$/;"	v
+conv_1D_proj_bias	title_maker_pro/model_generation.py	/^    conv_1D_proj_bias = model.h[i].attn.c_proj.bias.data.numpy().reshape((1, 1, 768, 1, 1))$/;"	v
+conv_1D_proj_weights	title_maker_pro/model_generation.py	/^    conv_1D_proj_weights = model.h[i].attn.c_proj.weight.data.numpy().transpose().reshape((1, 768, 768, 1, 1))$/;"	v
+conv_1D_weights	title_maker_pro/model_generation.py	/^    conv_1D_weights = model.h[i].attn.c_attn.weight.data.numpy().transpose().reshape((1, 768, 2304, 1, 1))$/;"	v
+cur_len	title_maker_pro/custom_modeling_utils.py	/^            cur_len=cur_len,$/;"	v
+cur_len	title_maker_pro/custom_modeling_utils.py	/^        cur_len = 1$/;"	v
+cur_len	title_maker_pro/custom_modeling_utils.py	/^        cur_len = input_ids.shape[-1]$/;"	v
+custom_generate	title_maker_pro/custom_modeling_utils.py	/^def custom_generate($/;"	f
+dataset	notebooks/fooling.py	/^dataset = datasets.ParsedDictionaryDefinitionDataset(tokenizer, args, None, None, None)$/;"	v
+dataset_middleware	website/main.py	/^    async def dataset_middleware(self, request, handler):$/;"	m	class:Handlers
+decoded	notebooks/fooling.py	/^    decoded = tokenizer.decode(sentence_tokens)$/;"	v
+decoded	title_maker_pro/dictionary_definition.py	/^            decoded = tokenizer.decode(sentence_tokens)$/;"	v
+decoder_start_token_id	title_maker_pro/custom_modeling_utils.py	/^            decoder_start_token_id = bos_token_id$/;"	v
+decoder_start_token_id	title_maker_pro/custom_modeling_utils.py	/^            decoder_start_token_id=decoder_start_token_id,$/;"	v
+decoder_start_token_id	title_maker_pro/custom_modeling_utils.py	/^    decoder_start_token_id = ($/;"	v
+decrypt_from_streamy	website/words.py	/^        def decrypt_from_streamy(f):$/;"	f	function:WordIndex.load_encrypted
+default	word_service/wordservice_server.py	/^        default=None,$/;"	v
+define_word	website/main.py	/^    async def define_word(self, request):$/;"	m	class:Handlers
+delay	title_maker_pro/urban_dictionary_scraper.py	/^    delay=10,$/;"	v
+description	deploy/word_service/jwt_token_gen.py	/^        description=__doc__,$/;"	v
+device	title_maker_pro/custom_modeling_utils.py	/^            device=next(self.parameters()).device,$/;"	v
+df	notebooks/fooling.py	/^df = pd.DataFrame($/;"	v
+dictionary_path	notebooks/fooling.py	/^dictionary_path = "data\/com_apple_MobileAsset_DictionaryServices_dictionaryOSX\/69b7ab1cf0f75ad16bf6662b0a77fbfd36b7941f.asset\/AssetData\/New Oxford American Dictionary.dictionary\/Contents\/Resources\/Body.data"$/;"	v
+do_example_expansion	notebooks/fooling.py	/^    do_example_expansion=True,$/;"	v
+do_label	title_maker_pro/labeler.py	/^def do_label(datasets, limit=None, prompt=None, dataset_labels=None):$/;"	f
+do_sample	notebooks/fooling.py	/^        do_sample=True,$/;"	v
+do_sample	title_maker_pro/custom_modeling_utils.py	/^            do_sample=do_sample,$/;"	v
+do_sample	title_maker_pro/custom_modeling_utils.py	/^    do_sample = do_sample if do_sample is not None else self.config.do_sample$/;"	v
+dtype	title_maker_pro/custom_modeling_utils.py	/^            dtype=torch.long,$/;"	v
+dump	title_maker_pro/datasets.py	/^    def dump(self, path):$/;"	m	class:Blacklist
+dump	website/words.py	/^    def dump(self, path):$/;"	m	class:WordIndex
+dump_encrypted	website/words.py	/^    def dump_encrypted(self, path, fernet_key):$/;"	m	class:WordIndex
+early_stopping	title_maker_pro/custom_modeling_utils.py	/^    early_stopping = early_stopping if early_stopping is not None else self.config.early_stopping$/;"	v
+effective_batch_mult	title_maker_pro/custom_modeling_utils.py	/^        effective_batch_mult = 1$/;"	v
+effective_batch_mult	title_maker_pro/custom_modeling_utils.py	/^        effective_batch_mult = num_return_sequences$/;"	v
+effective_batch_size	title_maker_pro/custom_modeling_utils.py	/^        effective_batch_size = batch_size * num_return_sequences$/;"	v
+effective_batch_size	title_maker_pro/custom_modeling_utils.py	/^        effective_batch_size = batch_size$/;"	v
+encoder	title_maker_pro/custom_modeling_utils.py	/^        encoder = self.get_encoder()$/;"	v
+encoder_outputs	title_maker_pro/custom_modeling_utils.py	/^            encoder_outputs=encoder_outputs,$/;"	v
+encoder_outputs	title_maker_pro/custom_modeling_utils.py	/^        encoder_outputs = (encoder_outputs[0].index_select(0, expanded_batch_idxs), *encoder_outputs[1:])$/;"	v
+encoder_outputs	title_maker_pro/custom_modeling_utils.py	/^        encoder_outputs = None$/;"	v
+encrypt_to_streamy	website/words.py	/^        def encrypt_to_streamy(f):$/;"	f	function:WordIndex.dump_encrypted
+enum_types	word_service/word_service_proto/wordservice_pb2.py	/^  enum_types=[$/;"	v
+eos_token_id	title_maker_pro/custom_modeling_utils.py	/^            eos_token_id=eos_token_id,$/;"	v
+eos_token_id	title_maker_pro/custom_modeling_utils.py	/^    eos_token_id = eos_token_id if eos_token_id is not None else self.config.eos_token_id$/;"	v
+epsilon	title_maker_pro/model_generation.py	/^        epsilon=ln_2_epsilon,$/;"	v
+epsilon	title_maker_pro/model_generation.py	/^        epsilon=ln_epsilon,$/;"	v
+epsilon	title_maker_pro/model_generation.py	/^    epsilon=ln_f_epsilon,$/;"	v
+evaluate	title_maker_pro/train.py	/^def evaluate(args, model: PreTrainedModel, tokenizer: PreTrainedTokenizer, prefix="") -> Dict:$/;"	f
+evaluate_creativity	title_maker_pro/datasets.py	/^    def evaluate_creativity(cls, tokenizer, model, blacklist, num_to_generate, batch_size, max_length):$/;"	m	class:ParsedDictionaryDefinitionDataset
+evaluate_lm_checkpoints	notebooks/fooling.py	/^def evaluate_lm_checkpoints(base_dir, validation_path):$/;"	f
+evaluate_title_checkpoints	notebooks/fooling.py	/^def evaluate_title_checkpoints(base_dir, validation_path):$/;"	f
+exceptions	title_maker_pro/urban_dictionary_scraper.py	/^    exceptions=(OSError, ConnectionError, ProtocolError, requests.exceptions.Timeout),$/;"	v
+expanded_batch_idxs	title_maker_pro/custom_modeling_utils.py	/^        expanded_batch_idxs = ($/;"	v
+expansion_generation_overrides	notebooks/fooling.py	/^    expansion_generation_overrides=dict($/;"	v
+extension_ranges	word_service/word_service_proto/wordservice_pb2.py	/^  extension_ranges=[],$/;"	v
+extensions	word_service/word_service_proto/wordservice_pb2.py	/^  extensions=[$/;"	v
+favicon	website/main.py	/^    async def favicon(self, request):$/;"	m	class:Handlers
+fetch_all_definitions	title_maker_pro/urban_dictionary_scraper.py	/^def fetch_all_definitions($/;"	f
+fetch_all_letter_word_url	title_maker_pro/urban_dictionary_scraper.py	/^def fetch_all_letter_word_url(session, letter, limit=None):$/;"	f
+fetch_all_word_urls	title_maker_pro/urban_dictionary_scraper.py	/^def fetch_all_word_urls(session, limit=None):$/;"	f
+fetch_letter_page	title_maker_pro/urban_dictionary_scraper.py	/^def fetch_letter_page(session, letter, page=1):$/;"	f
+fetch_word	title_maker_pro/urban_dictionary_scraper.py	/^def fetch_word(session, url):$/;"	f
+fields	word_service/word_service_proto/wordservice_pb2.py	/^  fields=[$/;"	v
+file	word_service/word_service_proto/wordservice_pb2.py	/^  file=DESCRIPTOR,$/;"	v
+filename	word_service/word_service_proto/wordservice_pb2.py	/^  filename=None,$/;"	v
+filter_proper_nouns	notebooks/fooling.py	/^    filter_proper_nouns=True,$/;"	v
+final_text	title_maker_pro/twitter_bot.py	/^    def final_text(word_with_definition):$/;"	f	function:_formulate_reply_text
+find_at_least_one	title_maker_pro/dictionary_definition.py	/^def find_at_least_one(bs, *args, **kwargs):$/;"	f
+find_at_most_one	title_maker_pro/dictionary_definition.py	/^def find_at_most_one(bs, *args, **kwargs):$/;"	f
+find_class	title_maker_pro/datasets.py	/^            def find_class(self, module, name):$/;"	m	class:Blacklist.from_urban_dictionary.RenamingUnpickler
+find_exactly_one	title_maker_pro/dictionary_definition.py	/^def find_exactly_one(bs, *args, **kwargs):$/;"	f
+firebase_api_key	website/main.py	/^        firebase_api_key=os.environ["FIREBASE_API_KEY"],$/;"	v
+flags	title_maker_pro/bad_words.py	/^    flags=re.IGNORECASE$/;"	v
+flattened_set	notebooks/fooling.py	/^flattened_set = list(itertools.chain.from_iterable(dataset._make_examples(tokenizer, e) for e in parsed_dictionary))$/;"	v
+formatter_class	deploy/word_service/jwt_token_gen.py	/^        formatter_class=argparse.RawDescriptionHelpFormatter)$/;"	v
+forward	title_maker_pro/modeling.py	/^    def forward($/;"	m	class:GPT2LMHeadWithWeightedLossModel
+from_dict	website/words.py	/^    def from_dict(cls, d):$/;"	m	class:Word
+from_parsed_dictionary	title_maker_pro/datasets.py	/^    def from_parsed_dictionary(cls, path):$/;"	m	class:Blacklist
+from_protobuf	website/words.py	/^    def from_protobuf(cls, proto: wordservice_pb2.WordDefinition):$/;"	m	class:Word
+from_text_lines	title_maker_pro/datasets.py	/^    def from_text_lines(cls, stream):$/;"	m	class:Blacklist
+from_text_stream	title_maker_pro/datasets.py	/^    def from_text_stream(cls, stream, min_threshold=3, chunk_size=1024 * 1024, use_gpu=False, sample_rate=1.0):$/;"	m	class:Blacklist
+from_urban_dictionary	title_maker_pro/datasets.py	/^    def from_urban_dictionary(cls, path, loaded=None):$/;"	m	class:Blacklist
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^    full_name='endpoints.word_service.WordService.DefineWord',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^    full_name='endpoints.word_service.WordService.GenerateWord',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^    full_name='endpoints.word_service.WordService.WordFromDefinition',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.DatasetType',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.DefineWordRequest',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.DefineWordResponse',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.GenerateWordRequest',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.GenerateWordResponse',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.WordDefinition',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.WordFromDefinitionRequest',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.WordFromDefinitionResponse',$/;"	v
+full_name	word_service/word_service_proto/wordservice_pb2.py	/^  full_name='endpoints.word_service.WordService',$/;"	v
+gcloud_api_key	website/main.py	/^        gcloud_api_key=os.environ["GCLOUD_API_KEY"],$/;"	v
+gen_from_apple_dictionary	title_maker_pro/dictionary_definition.py	/^    def gen_from_apple_dictionary(cls, f):$/;"	m	class:DictionaryDefinition
+gen_word_to_word_definition	word_service/wordservice_server.py	/^    def gen_word_to_word_definition(self, gen_word, dataset):$/;"	m	class:WordServiceServicer
+generate_definition	title_maker_pro/word_generator.py	/^    def generate_definition(self, word, user_filter=None):$/;"	m	class:WordGenerator
+generate_jwt	deploy/word_service/jwt_token_gen.py	/^def generate_jwt(service_account_file, issuer, audiences):$/;"	f
+generate_text_dataset	title_maker_pro/datasets.py	/^    def generate_text_dataset(cls, istream, ostream, offset=0, stride=1024, limit=None):$/;"	m	class:WikiArticleTitleDataset
+generate_urban_definition	title_maker_pro/word_generator.py	/^    def generate_urban_definition(self, word, user_filter=None):$/;"	m	class:WordGenerator
+generate_word	title_maker_pro/word_generator.py	/^    def generate_word(self, user_filter=None):$/;"	m	class:WordGenerator
+generate_word_from_definition	title_maker_pro/word_generator.py	/^    def generate_word_from_definition(self, definition, user_filter=None):$/;"	m	class:WordGenerator
+generate_words	title_maker_pro/datasets.py	/^    def generate_words($/;"	m	class:InverseParsedDictionaryDefinitionDataset
+generate_words	title_maker_pro/datasets.py	/^    def generate_words($/;"	m	class:ParsedDictionaryDefinitionDataset
+generate_words	title_maker_pro/datasets.py	/^    def generate_words($/;"	m	class:UrbanDictionaryDataset
+generate_words	title_maker_pro/dictionary_definition.py	/^def generate_words($/;"	f
+generate_words	title_maker_pro/urban_dictionary_scraper.py	/^def generate_words($/;"	f
+generate_words_only	title_maker_pro/datasets.py	/^    def generate_words_only($/;"	m	class:ParsedDictionaryDefinitionDataset
+generated	notebooks/fooling.py	/^generated = model.generate(input, max_length=100, num_return_sequences=100, temperature=1)$/;"	v
+generated	title_maker_pro/dictionary_definition.py	/^        generated = model.generate(input, max_length=max_length, num_return_sequences=batch_size, temperature=1.0,)$/;"	v
+generation_args	notebooks/fooling.py	/^    generation_args=dict($/;"	v
+get_checkpoints	notebooks/fooling.py	/^def get_checkpoints(base_dir):$/;"	f
+get_session	title_maker_pro/urban_dictionary_scraper.py	/^def get_session(throttle=0.1, expiry=24 * 3600):$/;"	f
+get_with_retries	title_maker_pro/urban_dictionary_scraper.py	/^def get_with_retries(session, url, timeout=20.0):$/;"	f
+grawlix	title_maker_pro/bad_words.py	/^def grawlix(s):$/;"	f
+handlers	website/main.py	/^    handlers = Handlers($/;"	v
+has_bias	title_maker_pro/model_generation.py	/^        has_bias=False,$/;"	v
+has_bias	title_maker_pro/model_generation.py	/^        has_bias=True,$/;"	v
+has_bias	title_maker_pro/model_generation.py	/^    has_bias=False,$/;"	v
+has_bias	title_maker_pro/model_generation.py	/^    has_bias=True,$/;"	v
+help	deploy/word_service/jwt_token_gen.py	/^                        help='The path to your service account json file.')$/;"	v
+help	word_service/wordservice_server.py	/^        help="The port to listen on."$/;"	v
+hook	title_maker_pro/urban_dictionary_scraper.py	/^    def hook(response, *args, **kwargs):$/;"	f	function:make_throttle_hook
+index	website/main.py	/^    async def index(self, request):$/;"	m	class:Handlers
+index	word_service/word_service_proto/wordservice_pb2.py	/^    index=0,$/;"	v
+index	word_service/word_service_proto/wordservice_pb2.py	/^    index=1,$/;"	v
+index	word_service/word_service_proto/wordservice_pb2.py	/^    index=2,$/;"	v
+index	word_service/word_service_proto/wordservice_pb2.py	/^  index=0,$/;"	v
+input	notebooks/fooling.py	/^input = tokenizer.encode(sequence, return_tensors="pt").to('cuda')$/;"	v
+input	title_maker_pro/dictionary_definition.py	/^    input = tokenizer.encode(prefix, return_tensors="pt").to("cuda")$/;"	v
+input_channels	title_maker_pro/model_generation.py	/^        input_channels=3072,$/;"	v
+input_channels	title_maker_pro/model_generation.py	/^        input_channels=768,$/;"	v
+input_channels	title_maker_pro/model_generation.py	/^    input_channels=768,$/;"	v
+input_dim	title_maker_pro/model_generation.py	/^    input_dim=1024,$/;"	v
+input_dim	title_maker_pro/model_generation.py	/^    input_dim=num_tokens,$/;"	v
+input_features	title_maker_pro/model_generation.py	/^input_features = [$/;"	v
+input_ids	title_maker_pro/custom_modeling_utils.py	/^        input_ids = input_ids.contiguous().view($/;"	v
+input_ids	title_maker_pro/custom_modeling_utils.py	/^        input_ids = input_ids.unsqueeze(1).expand(batch_size, effective_batch_mult * num_beams, input_ids_len)$/;"	v
+input_ids	title_maker_pro/custom_modeling_utils.py	/^        input_ids = torch.full($/;"	v
+input_ids	title_maker_pro/custom_modeling_utils.py	/^        input_ids = torch.full((batch_size, 1), bos_token_id, dtype=torch.long, device=next(self.parameters()).device,)$/;"	v
+input_ids_len	title_maker_pro/custom_modeling_utils.py	/^        input_ids_len = input_ids.shape[-1]$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i + 1}_previous_block_final",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_bias",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_conv",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_conv_proj_t",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_k",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_k_reshape",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_q",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_q_reshape",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_qv_matmul",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_qv_matmul_scaled",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_v",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_attn_v_reshape",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_full_attention",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_full_attention_merged",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_full_attention_merged_t",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_ln_1",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_ln_1_scaled",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_ln_1_scaled_transposed",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_ln_2",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_ln_2_scaled",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_mlp_conv_fc",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_mlp_gelu",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_block_xa_sum",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^        input_name=f"{i}_previous_block",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^    input_name="input_ids",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^    input_name="input_ids_expanded_to_rank5",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^    input_name="ln_f_scaled",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^    input_name="position_ids",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^    input_name="position_ids_expanded_to_rank5",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^    input_name=f"ln_f",$/;"	v
+input_name	title_maker_pro/model_generation.py	/^    input_name=f"{steps}_previous_block_final",$/;"	v
+input_names	title_maker_pro/model_generation.py	/^        input_names=[f"{i}_block_attn_q_reshape_permuted", f"{i}_block_attn_k_reshape_permuted",],$/;"	v
+input_names	title_maker_pro/model_generation.py	/^        input_names=[f"{i}_block_xa_sum", f"{i}_block_mlp_conv_proj"],$/;"	v
+input_names	title_maker_pro/model_generation.py	/^        input_names=[f"{i}_expandit", f"{i}_block_attn_v_reshape_permuted"],$/;"	v
+input_names	title_maker_pro/model_generation.py	/^        input_names=[f"{i}_previous_block_t", f"{i}_block_attn_conv_proj"],$/;"	v
+input_names	title_maker_pro/model_generation.py	/^    input_names=["token_embeddings", "positional_embeddings"],$/;"	v
+input_type	word_service/word_service_proto/wordservice_pb2.py	/^    input_type=_DEFINEWORDREQUEST,$/;"	v
+input_type	word_service/word_service_proto/wordservice_pb2.py	/^    input_type=_GENERATEWORDREQUEST,$/;"	v
+input_type	word_service/word_service_proto/wordservice_pb2.py	/^    input_type=_WORDFROMDEFINITIONREQUEST,$/;"	v
+is_extendable	word_service/word_service_proto/wordservice_pb2.py	/^  is_extendable=False,$/;"	v
+items	notebooks/fooling.py	/^    items = OrderedDict(items)$/;"	v
+length_penalty	title_maker_pro/custom_modeling_utils.py	/^    length_penalty = length_penalty if length_penalty is not None else self.config.length_penalty$/;"	v
+lm_eval	title_maker_pro/wiki_article.py	/^def lm_eval(model, tokenizer, file_path, device="cuda", block_size=512, batch_size=1):$/;"	f
+lm_head_model	title_maker_pro/model_generation.py	/^lm_head_model = GPT2LMHeadModel.from_pretrained(args.model)$/;"	v
+lm_head_weights	title_maker_pro/model_generation.py	/^lm_head_weights = lm_head_model.lm_head.weight.data.numpy().reshape((1, num_tokens, 768, 1, 1))$/;"	v
+ln_2_bias	title_maker_pro/model_generation.py	/^    ln_2_bias = model.h[i].ln_2.bias.data.numpy().reshape((1, 1, 768, 1, 1))$/;"	v
+ln_2_epsilon	title_maker_pro/model_generation.py	/^    ln_2_epsilon = model.h[i].ln_2.eps$/;"	v
+ln_2_weight	title_maker_pro/model_generation.py	/^    ln_2_weight = model.h[i].ln_2.weight.data.numpy().reshape((1, 1, 768, 1, 1))$/;"	v
+ln_bias	title_maker_pro/model_generation.py	/^    ln_bias = model.h[i].ln_1.bias.data.numpy().reshape((1, 1, 768, 1, 1))$/;"	v
+ln_epsilon	title_maker_pro/model_generation.py	/^    ln_epsilon = model.h[i].ln_1.eps$/;"	v
+ln_f_bias	title_maker_pro/model_generation.py	/^ln_f_bias = model.ln_f.bias.data.numpy().reshape((1, 1, 768, 1, 1))$/;"	v
+ln_f_epsilon	title_maker_pro/model_generation.py	/^ln_f_epsilon = model.ln_f.eps$/;"	v
+ln_f_weight	title_maker_pro/model_generation.py	/^ln_f_weight = model.ln_f.weight.data.numpy().reshape((1, 1, 768, 1, 1))$/;"	v
+ln_weight	title_maker_pro/model_generation.py	/^    ln_weight = model.h[i].ln_1.weight.data.numpy().reshape((1, 1, 768, 1, 1))$/;"	v
+load	title_maker_pro/datasets.py	/^    def load(cls, path):$/;"	m	class:Blacklist
+load	website/words.py	/^    def load(cls, path):$/;"	m	class:WordIndex
+load_and_cache_examples	title_maker_pro/train.py	/^def load_and_cache_examples(args, tokenizer, evaluate=False):$/;"	f
+load_encrypted	website/words.py	/^    def load_encrypted(cls, path, fernet_key):$/;"	m	class:WordIndex
+load_model	title_maker_pro/modeling.py	/^def load_model(cls, path):$/;"	f
+load_quantized_model	title_maker_pro/modeling.py	/^def load_quantized_model(cls, path):$/;"	f
+logger	title_maker_pro/datasets.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	title_maker_pro/dictionary_definition.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	title_maker_pro/train.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	title_maker_pro/twitter_bot.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	title_maker_pro/urban_dictionary_scraper.py	/^    logger=logger,$/;"	v
+logger	title_maker_pro/urban_dictionary_scraper.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	title_maker_pro/wiki_article.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	title_maker_pro/word_generator.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	title_maker_pro/wotd_bot.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	website/main.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	word_service/wordservice_server.py	/^logger = logging.getLogger(__name__)$/;"	v
+lvl	website/main.py	/^    lvl = logging.DEBUG if args.verbose else logging.INFO$/;"	v
+m	notebooks/fooling.py	/^    m = re.match(r"\\s*" + re.escape(entry.title) + r"\\d*\\s*(\\|[^|]*\\|)?\\s*", entry.entry_str)$/;"	v
+m	notebooks/fooling.py	/^    m = re.search(r"<bot>(.*?)<eot>", decoded)$/;"	v
+m	title_maker_pro/dictionary_definition.py	/^            m = re.search(r"<title>(.*?)<\/title>(.*)", decoded)$/;"	v
+main	title_maker_pro/labeler.py	/^def main():$/;"	f
+main	title_maker_pro/train.py	/^def main():$/;"	f
+main	title_maker_pro/twitter_bot.py	/^def main(args):$/;"	f
+main	title_maker_pro/wotd_bot.py	/^def main(args):$/;"	f
+main	word_service/wordservice_server.py	/^def main(args):$/;"	f
+make_throttle_hook	title_maker_pro/urban_dictionary_scraper.py	/^def make_throttle_hook(rand_timeout=1.0):$/;"	f
+mask_tokens	title_maker_pro/train.py	/^def mask_tokens(inputs: torch.Tensor, tokenizer: PreTrainedTokenizer, args) -> Tuple[torch.Tensor, torch.Tensor]:$/;"	f
+max_iterations	notebooks/fooling.py	/^    max_iterations=40,$/;"	v
+max_length	notebooks/fooling.py	/^        max_length=512,$/;"	v
+max_length	title_maker_pro/custom_modeling_utils.py	/^            max_length=max_length,$/;"	v
+max_length	title_maker_pro/custom_modeling_utils.py	/^    max_length = max_length if max_length is not None else self.config.max_length$/;"	v
+merge	title_maker_pro/datasets.py	/^    def merge(self, other):$/;"	m	class:Blacklist
+methods	word_service/word_service_proto/wordservice_pb2.py	/^  methods=[$/;"	v
+min_length	title_maker_pro/custom_modeling_utils.py	/^            min_length=min_length,$/;"	v
+min_length	title_maker_pro/custom_modeling_utils.py	/^    min_length = min_length if min_length is not None else self.config.min_length$/;"	v
+mlmodel	title_maker_pro/model_generation.py	/^mlmodel = coremltools.models.MLModel(builder.spec)$/;"	v
+mlp_conv_1D_fc_bias	title_maker_pro/model_generation.py	/^    mlp_conv_1D_fc_bias = model.h[i].mlp.c_fc.bias.data.numpy().reshape((1, 1, 3072, 1, 1))$/;"	v
+mlp_conv_1D_fc_weights	title_maker_pro/model_generation.py	/^    mlp_conv_1D_fc_weights = model.h[i].mlp.c_fc.weight.data.numpy().transpose().reshape((1, 768, 3072, 1, 1))$/;"	v
+mlp_conv_1D_proj_bias	title_maker_pro/model_generation.py	/^    mlp_conv_1D_proj_bias = model.h[i].mlp.c_proj.bias.data.numpy().reshape((1, 1, 768, 1, 1))$/;"	v
+mlp_conv_1D_proj_weights	title_maker_pro/model_generation.py	/^    mlp_conv_1D_proj_weights = model.h[i].mlp.c_proj.weight.data.numpy().transpose().reshape((1, 3072, 768, 1, 1))$/;"	v
+mode	title_maker_pro/model_generation.py	/^        mode="TANH_APPROXIMATION",$/;"	v
+model	notebooks/fooling.py	/^model =  modeling.GPT2LMHeadWithWeightedLossModel.from_pretrained("models\/dictionary-scale-10-lr5e-5").to("cuda")$/;"	v
+model	notebooks/fooling.py	/^model =  modeling.GPT2LMHeadWithWeightedLossModel.from_pretrained("models\/wikitext-103-raw-title-scale-20-lr5e-5").to("cuda")$/;"	v
+model	notebooks/fooling.py	/^model =  modeling.GPT2LMHeadWithWeightedLossModel.from_pretrained($/;"	v
+model	notebooks/fooling.py	/^model = AutoModelWithLMHead.from_pretrained("gpt2").to('cuda')$/;"	v
+model	notebooks/fooling.py	/^model = AutoModelWithLMHead.from_pretrained("models\/en_dictionary_parsed_lr_00001\/checkpoint-120000").to("cuda:0")$/;"	v
+model	notebooks/fooling.py	/^model = AutoModelWithLMHead.from_pretrained("output_103\/").to('cuda')$/;"	v
+model	title_maker_pro/model_generation.py	/^model = lm_head_model.transformer$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_afterbias",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_bias",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_conv",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_conv_proj",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_conv_proj_t",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_k_reshape",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_k_reshape_permuted",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_q_reshape",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_q_reshape_permuted",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_qkv_split",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_qv_matmul",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_qv_matmul_scaled",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_v_reshape",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_attn_v_reshape_permuted",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_full_attention",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_full_attention_merged",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_full_attention_merged_t",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_ln_1",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_ln_1_reshape",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_ln_1_scaled",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_ln_2",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_ln_2_scaled",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_mlp_conv_fc",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_mlp_conv_proj",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_mlp_gelu",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_xa_sum",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_xm_sum",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_block_xm_sum_t",$/;"	v
+name	title_maker_pro/model_generation.py	/^        name=f"{i}_previous_block_t",$/;"	v
+name	title_maker_pro/model_generation.py	/^    name="embeddings_addition",$/;"	v
+name	title_maker_pro/model_generation.py	/^    name="input_ids_expanded_to_rank5",$/;"	v
+name	title_maker_pro/model_generation.py	/^    name="lm_head",$/;"	v
+name	title_maker_pro/model_generation.py	/^    name="position_ids_expanded_to_rank5",$/;"	v
+name	title_maker_pro/model_generation.py	/^    name="positional_embeddings",$/;"	v
+name	title_maker_pro/model_generation.py	/^    name="token_embeddings",$/;"	v
+name	title_maker_pro/model_generation.py	/^    name=f"ln_f",$/;"	v
+name	title_maker_pro/model_generation.py	/^    name=f"ln_f_scaled",$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^    name='DefineWord',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^    name='GenerateWord',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^    name='WordFromDefinition',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='DatasetType',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='DefineWordRequest',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='DefineWordResponse',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='GenerateWordRequest',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='GenerateWordResponse',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='WordDefinition',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='WordFromDefinitionRequest',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='WordFromDefinitionResponse',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='WordService',$/;"	v
+name	word_service/word_service_proto/wordservice_pb2.py	/^  name='wordservice.proto',$/;"	v
+nested_types	word_service/word_service_proto/wordservice_pb2.py	/^  nested_types=[],$/;"	v
+nl2br	website/main.py	/^def nl2br(eval_ctx, value):$/;"	f
+no_repeat_ngram_size	title_maker_pro/custom_modeling_utils.py	/^            no_repeat_ngram_size=no_repeat_ngram_size,$/;"	v
+no_repeat_ngram_size	title_maker_pro/custom_modeling_utils.py	/^    no_repeat_ngram_size = ($/;"	v
+normalize_variance	title_maker_pro/model_generation.py	/^        normalize_variance=True,$/;"	v
+normalize_variance	title_maker_pro/model_generation.py	/^    normalize_variance=True,$/;"	v
+num	notebooks/fooling.py	/^    num=100,$/;"	v
+num	notebooks/fooling.py	/^    num=500,$/;"	v
+num_beams	title_maker_pro/custom_modeling_utils.py	/^    num_beams = num_beams if num_beams is not None else self.config.num_beams$/;"	v
+num_expansion_candidates	notebooks/fooling.py	/^    num_expansion_candidates=10,$/;"	v
+num_iteration	title_maker_pro/dictionary_definition.py	/^    num_iteration = 0$/;"	v
+num_return_sequences	notebooks/fooling.py	/^        num_return_sequences=10,$/;"	v
+num_return_sequences	notebooks/fooling.py	/^        num_return_sequences=100,$/;"	v
+num_return_sequences	title_maker_pro/custom_modeling_utils.py	/^    num_return_sequences = ($/;"	v
+oed_to_upos	title_maker_pro/datasets.py	/^oed_to_upos = {$/;"	v
+on_cleanup	website/main.py	/^    async def on_cleanup(self, app):$/;"	m	class:Handlers
+on_startup	website/main.py	/^    async def on_startup(self, app):$/;"	m	class:Handlers
+oneofs	word_service/word_service_proto/wordservice_pb2.py	/^  oneofs=[$/;"	v
+ordered_dict	title_maker_pro/datasets.py	/^            ordered_dict = (loaded or RenamingUnpickler(f).load())$/;"	v	class:Blacklist.from_urban_dictionary.RenamingUnpickler
+output	title_maker_pro/custom_modeling_utils.py	/^        output = _generate_no_beam_search($/;"	v
+output_channels	title_maker_pro/model_generation.py	/^        output_channels=2304,$/;"	v
+output_channels	title_maker_pro/model_generation.py	/^        output_channels=3072,$/;"	v
+output_channels	title_maker_pro/model_generation.py	/^        output_channels=768,$/;"	v
+output_channels	title_maker_pro/model_generation.py	/^    output_channels=768,$/;"	v
+output_channels	title_maker_pro/model_generation.py	/^    output_channels=num_tokens,$/;"	v
+output_features	title_maker_pro/model_generation.py	/^output_features = [("output_logits", None)]$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i + 1}_previous_block",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i + 1}_previous_block_final",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_afterbias",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_bias",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_conv",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_conv_proj",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_conv_proj_t",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_k_reshape",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_k_reshape_permuted",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_q_reshape",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_q_reshape_permuted",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_qv_matmul",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_qv_matmul_scaled",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_v_reshape",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_attn_v_reshape_permuted",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_full_attention",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_full_attention_merged",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_full_attention_merged_t",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_ln_1",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_ln_1_scaled",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_ln_1_scaled_transposed",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_ln_2",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_ln_2_scaled",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_mlp_conv_fc",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_mlp_conv_proj",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_mlp_gelu",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_block_xa_sum",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^        output_name=f"{i}_previous_block_t",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^    output_name="input_ids_expanded_to_rank5",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^    output_name="output_logits",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^    output_name="position_ids_expanded_to_rank5",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^    output_name="positional_embeddings",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^    output_name="token_embeddings",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^    output_name=f"ln_f",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^    output_name=f"ln_f_scaled",$/;"	v
+output_name	title_maker_pro/model_generation.py	/^    output_name=f"{0}_previous_block",$/;"	v
+output_names	title_maker_pro/model_generation.py	/^        output_names=[f"{i}_block_attn_q", f"{i}_block_attn_k", f"{i}_block_attn_v"],$/;"	v
+output_shape	title_maker_pro/model_generation.py	/^        output_shape=(1, 1, sequence_length, 12, 64),$/;"	v
+output_shape	title_maker_pro/model_generation.py	/^        output_shape=[1, 1, 1, sequence_length, 768],$/;"	v
+output_type	word_service/word_service_proto/wordservice_pb2.py	/^    output_type=_DEFINEWORDRESPONSE,$/;"	v
+output_type	word_service/word_service_proto/wordservice_pb2.py	/^    output_type=_GENERATEWORDRESPONSE,$/;"	v
+output_type	word_service/word_service_proto/wordservice_pb2.py	/^    output_type=_WORDFROMDEFINITIONRESPONSE,$/;"	v
+package	word_service/word_service_proto/wordservice_pb2.py	/^  package='endpoints.word_service',$/;"	v
+pad_token_id	title_maker_pro/custom_modeling_utils.py	/^            pad_token_id=pad_token_id,$/;"	v
+pad_token_id	title_maker_pro/custom_modeling_utils.py	/^        pad_token_id = eos_token_id$/;"	v
+pad_token_id	title_maker_pro/custom_modeling_utils.py	/^    pad_token_id = pad_token_id if pad_token_id is not None else self.config.pad_token_id$/;"	v
+parse	title_maker_pro/dictionary_definition.py	/^    def parse(cls, parsed_entry):$/;"	m	class:AppleDictParser
+parse_derivatives	title_maker_pro/dictionary_definition.py	/^    def parse_derivatives(cls, parsed_entry):$/;"	m	class:AppleDictParser
+parse_origin	title_maker_pro/dictionary_definition.py	/^    def parse_origin(cls, parsed_entry):$/;"	m	class:AppleDictParser
+parse_phrasal_verbs	title_maker_pro/dictionary_definition.py	/^    def parse_phrasal_verbs(cls, parsed_entry):$/;"	m	class:AppleDictParser
+parse_pronounciations	title_maker_pro/dictionary_definition.py	/^    def parse_pronounciations(cls, parsed_entry):$/;"	m	class:AppleDictParser
+parse_sense	title_maker_pro/dictionary_definition.py	/^    def parse_sense(cls, parsed_entry):$/;"	m	class:AppleDictParser
+parse_sense_definitions	title_maker_pro/dictionary_definition.py	/^    def parse_sense_definitions(cls, parsed_entry):$/;"	m	class:AppleDictParser
+parsed_dictionary	notebooks/fooling.py	/^    parsed_dictionary = pickle.load(f)$/;"	v
+parser	deploy/word_service/jwt_token_gen.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	title_maker_pro/model_generation.py	/^parser = argparse.ArgumentParser(description="Interactive labeling for datasets")$/;"	v
+parser	title_maker_pro/twitter_bot.py	/^    parser = argparse.ArgumentParser(description="Run a twitter bot that replies to tweets with definitions")$/;"	v
+parser	title_maker_pro/wotd_bot.py	/^    parser = argparse.ArgumentParser(description="Run a wotd bot that uploads a wotd to a specified google bucket")$/;"	v
+parser	website/main.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	word_service/wordservice_client.py	/^    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)$/;"	v
+parser	word_service/wordservice_server.py	/^    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)$/;"	v
+partial_generation_transform	title_maker_pro/custom_modeling_utils.py	/^            partial_generation_transform=partial_generation_transform,$/;"	v
+partial_generation_transform	title_maker_pro/datasets.py	/^                def partial_generation_transform(input_ids, tokens_to_add):$/;"	f	function:ParsedDictionaryDefinitionDataset.generate_words
+partial_generation_transform	title_maker_pro/datasets.py	/^                def partial_generation_transform(input_ids, tokens_to_add):$/;"	f	function:UrbanDictionaryDataset.generate_words
+partial_generation_transform	title_maker_pro/datasets.py	/^            def partial_generation_transform(input_ids, tokens_to_add):$/;"	f	function:ParsedDictionaryDefinitionDataset.generate_words_only
+patterns	title_maker_pro/bad_words.py	/^patterns = [$/;"	v
+permalink_hmac_key	website/main.py	/^        permalink_hmac_key=os.environ["PERMALINK_HMAC_KEY"],$/;"	v
+perplexity	title_maker_pro/wiki_article.py	/^def perplexity(model, tokenizer, sentences, device="cuda", **fwd_args):$/;"	f
+potential_blacklist	notebooks/fooling.py	/^potential_blacklist = set()$/;"	v
+print_words	notebooks/fooling.py	/^def print_words(words, f):$/;"	f
+print_words	title_maker_pro/datasets.py	/^    def print_words(cls, words, f=sys.stdout):$/;"	m	class:GeneratedWord
+probably_real_word	title_maker_pro/word_generator.py	/^    def probably_real_word(self, word):$/;"	m	class:WordGenerator
+query_yes_no	title_maker_pro/labeler.py	/^def query_yes_no(question, default="yes"):$/;"	f
+random	website/words.py	/^    def random(self):$/;"	m	class:WordIndex
+random_word_json	website/main.py	/^    async def random_word_json(self, request):$/;"	m	class:Handlers
+recaptcha_server_token	website/main.py	/^        recaptcha_server_token=os.environ["RECAPTCHA_SERVER_TOKEN"],$/;"	v
+refine_wikitext	title_maker_pro/datasets.py	/^    def refine_wikitext(cls, istream, limit=None):$/;"	m	class:WikiArticleTitleDataset
+refined_model_eval	notebooks/fooling.py	/^refined_model_eval = wiki_article.run_title_evaluation(model, tokenizer, "wikitext-103-raw\/wiki.valid.raw")$/;"	v
+repetition_penalty	title_maker_pro/custom_modeling_utils.py	/^            repetition_penalty=repetition_penalty,$/;"	v
+repetition_penalty	title_maker_pro/custom_modeling_utils.py	/^    repetition_penalty = repetition_penalty if repetition_penalty is not None else self.config.repetition_penalty$/;"	v
+resulting_string	notebooks/fooling.py	/^resulting_string = tokenizer.decode(generated.tolist()[0])$/;"	v
+ret	title_maker_pro/dictionary_definition.py	/^    ret = []$/;"	v
+run	word_service/wordservice_client.py	/^def run(host, port, api_key, auth_token, timeout, use_tls, word):$/;"	f
+run_title_evaluation	title_maker_pro/wiki_article.py	/^def run_title_evaluation(model, tokenizer, path, limit=None):$/;"	f
+sample	notebooks/fooling.py	/^sample = df.sample(frac=1)$/;"	v
+sample_no_dataset	notebooks/fooling.py	/^sample_no_dataset = sample[:]$/;"	v
+sentence_tokens	notebooks/fooling.py	/^    sentence_tokens = generated[i, :].tolist()$/;"	v
+sentence_tokens	title_maker_pro/dictionary_definition.py	/^            sentence_tokens = generated[i, :].tolist()$/;"	v
+sequence	notebooks/fooling.py	/^sequence = f"\\"TITLE\\" is a song collaboration by Chinese artist Pamela Chen and Canadian singer Thomas Dimson, first released independently in March 2020. After gaining popularity amongst the cat community, the single was re-released by major label Columbia Records in May 2020. Pamela describes the song as being originally inspired by her two kittens, Apollo and Bean who once said meow.<bot>"$/;"	v
+sequence_length	title_maker_pro/model_generation.py	/^sequence_length = 64$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=1038,$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=224,$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=313,$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=389,$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=438,$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=522,$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=545,$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=623,$/;"	v
+serialized_end	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_end=683,$/;"	v
+serialized_options	word_service/word_service_proto/wordservice_pb2.py	/^      serialized_options=None,$/;"	v
+serialized_options	word_service/word_service_proto/wordservice_pb2.py	/^    serialized_options=None,$/;"	v
+serialized_options	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_options=None,$/;"	v
+serialized_pb	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_pb=_b('\\n\\x11wordservice.proto\\x12\\x16\\x65ndpoints.word_service\\"\\xb2\\x01\\n\\x0eWordDefinition\\x12\\x0c\\n\\x04word\\x18\\x01 \\x01(\\t\\x12\\x12\\n\\ndefinition\\x18\\x02 \\x01(\\t\\x12\\x0b\\n\\x03pos\\x18\\x03 \\x01(\\t\\x12\\x10\\n\\x08\\x65xamples\\x18\\x04 \\x03(\\t\\x12\\x11\\n\\tsyllables\\x18\\x05 \\x03(\\t\\x12\\x16\\n\\x0eprobablyExists\\x18\\x06 \\x01(\\x08\\x12\\x34\\n\\x07\\x64\\x61taset\\x18\\x07 \\x01(\\x0e\\x32#.endpoints.word_service.DatasetType\\"W\\n\\x11\\x44\\x65\\x66ineWordRequest\\x12\\x0c\\n\\x04word\\x18\\x01 \\x01(\\t\\x12\\x34\\n\\x07\\x64\\x61taset\\x18\\x02 \\x01(\\x0e\\x32#.endpoints.word_service.DatasetType\\"J\\n\\x12\\x44\\x65\\x66ineWordResponse\\x12\\x34\\n\\x04word\\x18\\x01 \\x01(\\x0b\\x32&.endpoints.word_service.WordDefinition\\"\/\\n\\x19WordFromDefinitionRequest\\x12\\x12\\n\\ndefinition\\x18\\x01 \\x01(\\t\\"R\\n\\x1aWordFromDefinitionResponse\\x12\\x34\\n\\x04word\\x18\\x01 \\x01(\\x0b\\x32&.endpoints.word_service.WordDefinition\\"\\x15\\n\\x13GenerateWordRequest\\"L\\n\\x14GenerateWordResponse\\x12\\x34\\n\\x04word\\x18\\x01 \\x01(\\x0b\\x32&.endpoints.word_service.WordDefinition*:\\n\\x0b\\x44\\x61tasetType\\x12\\x07\\n\\x03OED\\x10\\x00\\x12\\x0f\\n\\x0bUD_FILTERED\\x10\\x01\\x12\\x11\\n\\rUD_UNFILTERED\\x10\\x02\\x32\\xe0\\x02\\n\\x0bWordService\\x12\\x65\\n\\nDefineWord\\x12).endpoints.word_service.DefineWordRequest\\x1a*.endpoints.word_service.DefineWordResponse\\"\\x00\\x12}\\n\\x12WordFromDefinition\\x12\\x31.endpoints.word_service.WordFromDefinitionRequest\\x1a\\x32.endpoints.word_service.WordFromDefinitionResponse\\"\\x00\\x12k\\n\\x0cGenerateWord\\x12+.endpoints.word_service.GenerateWordRequest\\x1a,.endpoints.word_service.GenerateWordResponse\\"\\x00\\x62\\x06proto3')$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=226,$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=315,$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=391,$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=440,$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=46,$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=524,$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=547,$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=625,$/;"	v
+serialized_start	word_service/word_service_proto/wordservice_pb2.py	/^  serialized_start=686,$/;"	v
+set_seed	title_maker_pro/train.py	/^def set_seed(args):$/;"	f
+shape_bias	title_maker_pro/model_generation.py	/^        shape_bias=[1, sequence_length, sequence_length],$/;"	v
+shape_bias	title_maker_pro/model_generation.py	/^        shape_bias=[768],$/;"	v
+shape_bias	title_maker_pro/model_generation.py	/^    shape_bias=[768],$/;"	v
+shape_scale	title_maker_pro/model_generation.py	/^        shape_scale=[1, sequence_length, sequence_length],$/;"	v
+shape_scale	title_maker_pro/model_generation.py	/^        shape_scale=[768],$/;"	v
+shape_scale	title_maker_pro/model_generation.py	/^    shape_scale=[768],$/;"	v
+shorten_word_url	website/main.py	/^    async def shorten_word_url(self, request):$/;"	m	class:Handlers
+signed_jwt	deploy/word_service/jwt_token_gen.py	/^    signed_jwt = generate_jwt(args.file, args.issuer, args.audiences)$/;"	v
+special_tokens_dict	title_maker_pro/datasets.py	/^    def special_tokens_dict(cls):$/;"	m	class:SpecialTokens
+steps	title_maker_pro/model_generation.py	/^steps = 12$/;"	v
+syntax	word_service/word_service_proto/wordservice_pb2.py	/^  syntax='proto3',$/;"	v
+temperature	title_maker_pro/custom_modeling_utils.py	/^            temperature=temperature,$/;"	v
+temperature	title_maker_pro/custom_modeling_utils.py	/^    temperature = temperature if temperature is not None else self.config.temperature$/;"	v
+title	title_maker_pro/dictionary_definition.py	/^                title = m.group(1).strip()$/;"	v
+title_perplexity	title_maker_pro/wiki_article.py	/^def title_perplexity(model, tokenizer, article, device="cuda"):$/;"	f
+title_tokenization	title_maker_pro/datasets.py	/^    def title_tokenization(cls, title):$/;"	m	class:BinaryDictionaryDefinitionDataset
+title_tokenization	title_maker_pro/datasets.py	/^    def title_tokenization(cls, title):$/;"	m	class:WikiArticleTitleDataset
+to_dict	website/words.py	/^    def to_dict(self):$/;"	m	class:Word
+to_short_dict	website/words.py	/^    def to_short_dict(self):$/;"	m	class:Word
+tokenizer	notebooks/fooling.py	/^tokenizer = AutoTokenizer.from_pretrained("gpt2")$/;"	v
+top_k	notebooks/fooling.py	/^        top_k=300,$/;"	v
+top_k	notebooks/fooling.py	/^        top_k=50,$/;"	v
+top_k	title_maker_pro/custom_modeling_utils.py	/^            top_k=top_k,$/;"	v
+top_k	title_maker_pro/custom_modeling_utils.py	/^    top_k = top_k if top_k is not None else self.config.top_k$/;"	v
+top_p	title_maker_pro/custom_modeling_utils.py	/^            top_p=top_p,$/;"	v
+top_p	title_maker_pro/custom_modeling_utils.py	/^    top_p = top_p if top_p is not None else self.config.top_p$/;"	v
+train	title_maker_pro/train.py	/^def train(args, train_dataset, model: PreTrainedModel, tokenizer: PreTrainedTokenizer) -> Tuple[int, float]:$/;"	f
+trainable_entry	notebooks/fooling.py	/^        trainable_entry = entry.entry_str[m.span()[1]:].strip()$/;"	v
+tries	title_maker_pro/urban_dictionary_scraper.py	/^    tries=20,$/;"	v
+tw40_words	notebooks/fooling.py	/^tw40_words = urban_dictionary_scraper.generate_words($/;"	v
+tweet_wotd	title_maker_pro/twitter_bot.py	/^def tweet_wotd(me, api, word_generator):$/;"	f
+type	word_service/word_service_proto/wordservice_pb2.py	/^      type=None),$/;"	v
+type	word_service/wordservice_server.py	/^        type=int,$/;"	v
+unrefined_model_eval	notebooks/fooling.py	/^unrefined_model_eval = wiki_article.run_title_evaluation(urban_dictionary_scrapermodel, tokenizer, "wikitext-103-raw\/wiki.valid.raw")$/;"	v
+upload_wotd	title_maker_pro/wotd_bot.py	/^def upload_wotd(blob, word_generator):$/;"	f
+use_cache	title_maker_pro/custom_modeling_utils.py	/^            use_cache=use_cache,$/;"	v
+use_cache	title_maker_pro/custom_modeling_utils.py	/^    use_cache = use_cache if use_cache is not None else self.config.use_cache$/;"	v
+valid_i	title_maker_pro/dictionary_definition.py	/^        valid_i = 0$/;"	v
+valid_words	notebooks/fooling.py	/^    valid_words = {e.title.upper() for e in dictionary_definition.DictionaryDefinition.gen_from_apple_dictionary(f)}full_dataset = [$/;"	v
+values	word_service/word_service_proto/wordservice_pb2.py	/^  values=[$/;"	v
+vocab_size	title_maker_pro/custom_modeling_utils.py	/^        vocab_size = self.config.decoder.vocab_size$/;"	v
+vocab_size	title_maker_pro/custom_modeling_utils.py	/^        vocab_size = self.config.vocab_size$/;"	v
+wilson	title_maker_pro/labeler.py	/^def wilson(ups, downs):$/;"	f
+word	notebooks/fooling.py	/^word = tokenizer.encode("vitellogenin")$/;"	v
+word	website/main.py	/^    async def word(self, request):$/;"	m	class:Handlers
+word_indexes	website/main.py	/^        word_indexes=word_indexes,$/;"	v
+word_indexes	website/main.py	/^    word_indexes = _load_word_indexes_from_base_dir(args.word_index_base_dir)$/;"	v
+words	notebooks/fooling.py	/^words = dictionary_definition.generate_words($/;"	v
+wpe	title_maker_pro/model_generation.py	/^wpe = model.wpe.weight.data.numpy().transpose()  # shape (768, 1024)$/;"	v
+wte	title_maker_pro/model_generation.py	/^wte = model.wte.weight.data.numpy().transpose()  # shape (768, 50257) \/!\\ i hate this$/;"	v

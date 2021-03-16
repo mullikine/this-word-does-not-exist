@@ -1,0 +1,15 @@
+Info 0    [14:5:29.217] Starting TS Server
+Info 1    [14:5:29.218] Version: 3.2.2
+Info 2    [14:5:29.218] Arguments: /home/shane/dump/programs/node-v15.11.0-linux-x64/bin/node /usr/local/bin/tsserver --logFile /home/shane/var/smulliga/source/git/turtlesoupy/this-word-does-not-exist/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/e6ebe25b9e62d9276d8f6816b1934fe3/tscancellation*
+Info 3    [14:5:29.218] Platform: linux NodeVersion: 15 CaseSensitive: true
+Info 4    [14:5:31.59] Search path: /home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks
+Info 5    [14:5:31.60] For info: /home/shane/source/git/turtlesoupy/this-word-does-not-exist/notebooks/urban_dictionary.ipynb :: No config files found.
+Info 6    [14:5:31.65] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [14:5:35.346] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 4281ms
+Info 8    [14:5:35.351] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [14:5:35.358] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 7ms
+Info 10   [14:5:35.712] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 11   [14:5:35.712] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 0ms
+Info 12   [14:5:35.712] Structure before ensureProjectForOpenFiles:
+Info 13   [14:5:35.712] Structure after ensureProjectForOpenFiles:
+Info 14   [14:5:35.713] got projects updated in background, updating diagnostics for 
